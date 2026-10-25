@@ -1,0 +1,105 @@
+{
+  "selected_model": "Context logistic",
+  "selection_rule": "Minimum validation log loss; test outcomes were not used for model selection. All candidates have fixed parameters.",
+  "features": [
+    "distance",
+    "angle",
+    "under_pressure",
+    "first_time",
+    "body_part",
+    "shot_type"
+  ],
+  "excluded_predictors": [
+    "provider_xg",
+    "goal",
+    "shot outcome",
+    "shot end location",
+    "player identity",
+    "post-shot information"
+  ],
+  "first_validation_date": "2016-02-02",
+  "first_test_date": "2016-04-10",
+  "split_summary": {
+    "train": {
+      "shots": 5851,
+      "goals": 532,
+      "matches": 230,
+      "first_date": "2015-08-08",
+      "last_date": "2016-01-24"
+    },
+    "validation": {
+      "shots": 2336,
+      "goals": 215,
+      "matches": 90,
+      "first_date": "2016-02-02",
+      "last_date": "2016-04-09"
+    },
+    "test": {
+      "shots": 1629,
+      "goals": 166,
+      "matches": 60,
+      "first_date": "2016-04-10",
+      "last_date": "2016-05-17"
+    }
+  },
+  "validation": [
+    {
+      "model": "Geometry logistic",
+      "log_loss": 0.28863046327065794,
+      "brier": 0.08074615941791721,
+      "roc_auc": 0.7003662160235957,
+      "average_precision": 0.19066297883113992
+    },
+    {
+      "model": "Context logistic",
+      "log_loss": 0.28182232394520795,
+      "brier": 0.07951370027742503,
+      "roc_auc": 0.7275977763889346,
+      "average_precision": 0.22166140115123023
+    },
+    {
+      "model": "Gradient boosting",
+      "log_loss": 0.28638110755578056,
+      "brier": 0.07988120519962814,
+      "roc_auc": 0.7166430928807166,
+      "average_precision": 0.20620716460440644
+    }
+  ],
+  "test": [
+    {
+      "model": "Constant baseline",
+      "log_loss": 0.3299069556360246,
+      "brier": 0.09163243748887595,
+      "roc_auc": 0.5,
+      "average_precision": 0.10190300798035605
+    },
+    {
+      "model": "Geometry logistic",
+      "log_loss": 0.2974474824647662,
+      "brier": 0.08528365263318419,
+      "roc_auc": 0.7361874016915234,
+      "average_precision": 0.24248718401125796
+    },
+    {
+      "model": "Context logistic",
+      "log_loss": 0.28778947414476136,
+      "brier": 0.08308781042390315,
+      "roc_auc": 0.7640102446697248,
+      "average_precision": 0.2833954383426601
+    },
+    {
+      "model": "Gradient boosting",
+      "log_loss": 0.2897453686278101,
+      "brier": 0.08286450104085025,
+      "roc_auc": 0.7504817630055424,
+      "average_precision": 0.2771732177199187
+    }
+  ],
+  "test_log_loss_improvement_match_bootstrap_95ci": [
+    0.029682254845719035,
+    0.05408681176601988
+  ],
+  "bootstrap_replicates": 500,
+  "scouting_xg": "Selected model refitted on all non-penalty shots for retrospective same-season description. Scouting xG is in-sample and is not a forecast or the test score.",
+  "pitch_units": "StatsBomb 120 x 80 normalized coordinates, not metres."
+}

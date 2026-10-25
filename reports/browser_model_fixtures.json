@@ -1,0 +1,2680 @@
+{
+  "predictions": [
+    {
+      "features": {
+        "distance": 58.67021231859357,
+        "angle": 0.10319313963338553,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0004054437912721428
+    },
+    {
+      "features": {
+        "distance": 53.290396490759576,
+        "angle": 0.14538745646341755,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0016621172225217767
+    },
+    {
+      "features": {
+        "distance": 49.49315824444884,
+        "angle": 0.15704927834926585,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0033225245636256204
+    },
+    {
+      "features": {
+        "distance": 57.73135559529233,
+        "angle": 0.12632194855244366,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0004279903508606465
+    },
+    {
+      "features": {
+        "distance": 51.45014619978819,
+        "angle": 0.15173211949106113,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0011034247484875638
+    },
+    {
+      "features": {
+        "distance": 59.736390915755976,
+        "angle": 0.13200626716061403,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0010012629984266152
+    },
+    {
+      "features": {
+        "distance": 28.623010084156032,
+        "angle": 0.0831512107055166,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.016328253175493735
+    },
+    {
+      "features": {
+        "distance": 62.429344905613256,
+        "angle": 0.11981976891685374,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0007701461209763635
+    },
+    {
+      "features": {
+        "distance": 38.7196337658365,
+        "angle": 0.20091116904388526,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0018496019696771253
+    },
+    {
+      "features": {
+        "distance": 19.43969236301501,
+        "angle": 0.2280439088197401,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.12419344228748379
+    },
+    {
+      "features": {
+        "distance": 51.96011379217169,
+        "angle": 0.15289517203675665,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.003691075557509504
+    },
+    {
+      "features": {
+        "distance": 51.92852781534883,
+        "angle": 0.1105250473873915,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.00036935494403407467
+    },
+    {
+      "features": {
+        "distance": 47.7696119329413,
+        "angle": 0.1560731458339734,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.002156703511160267
+    },
+    {
+      "features": {
+        "distance": 18.863415814037637,
+        "angle": 0.2494480807711049,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.09458691450185971
+    },
+    {
+      "features": {
+        "distance": 12.357594766999556,
+        "angle": 0.6216665918311592,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.2333628041946945
+    },
+    {
+      "features": {
+        "distance": 34.705383106346595,
+        "angle": 0.06031630624272493,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.006011903833750383
+    },
+    {
+      "features": {
+        "distance": 9.544298955994835,
+        "angle": 0.7631718789883832,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.5204480446996336
+    },
+    {
+      "features": {
+        "distance": 17.646393457609026,
+        "angle": 0.4455082043763469,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.12924619896379327
+    },
+    {
+      "features": {
+        "distance": 48.802995771891354,
+        "angle": 0.1630508034662546,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.003618496891515024
+    },
+    {
+      "features": {
+        "distance": 50.08108595115903,
+        "angle": 0.13818368818823626,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0006382772139577458
+    },
+    {
+      "features": {
+        "distance": 58.7218702231867,
+        "angle": 0.135722207647919,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.00041744907790301577
+    },
+    {
+      "features": {
+        "distance": 37.63280149016726,
+        "angle": 0.0416525202484374,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.008886620677937015
+    },
+    {
+      "features": {
+        "distance": 39.33125491361501,
+        "angle": 0.18384918158328786,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.02020900443626604
+    },
+    {
+      "features": {
+        "distance": 4.540087889251062,
+        "angle": 1.2458346460059468,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.28142042733151756
+    },
+    {
+      "features": {
+        "distance": 55.28662177796619,
+        "angle": 0.12803174862495373,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0018110541308613542
+    },
+    {
+      "features": {
+        "distance": 36.58481554872057,
+        "angle": 0.06060528706351218,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.01103997494318041
+    },
+    {
+      "features": {
+        "distance": 21.1616814316906,
+        "angle": 0.2840213799584219,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.07690742705263375
+    },
+    {
+      "features": {
+        "distance": 31.725034575017133,
+        "angle": 0.24278014078273394,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.009241208149604883
+    },
+    {
+      "features": {
+        "distance": 48.86202304811149,
+        "angle": 0.11623875303984801,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0005281879106628725
+    },
+    {
+      "features": {
+        "distance": 55.65142300599617,
+        "angle": 0.14343129889198364,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0014964370408006265
+    },
+    {
+      "features": {
+        "distance": 31.393709871803388,
+        "angle": 0.24677949959317644,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.009636799302539587
+    },
+    {
+      "features": {
+        "distance": 31.957339897361692,
+        "angle": 0.02385247408502406,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.01791390618452921
+    },
+    {
+      "features": {
+        "distance": 55.50115039057705,
+        "angle": 0.11803092020684469,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.001180771708438034
+    },
+    {
+      "features": {
+        "distance": 65.03804416761525,
+        "angle": 0.11228122602286564,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.000669866475341212
+    },
+    {
+      "features": {
+        "distance": 23.23718795998586,
+        "angle": 0.09293161266178097,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.04051944844037832
+    },
+    {
+      "features": {
+        "distance": 24.27859311009598,
+        "angle": 0.15859408288116314,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.09443483459735695
+    },
+    {
+      "features": {
+        "distance": 58.0527068095597,
+        "angle": 0.1359620149790135,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0005657004564906051
+    },
+    {
+      "features": {
+        "distance": 64.73268992640857,
+        "angle": 0.10902588787596836,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.00029353204304122607
+    },
+    {
+      "features": {
+        "distance": 22.644578603460772,
+        "angle": 0.1599410967729731,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.031759818292356724
+    },
+    {
+      "features": {
+        "distance": 35.3285697374013,
+        "angle": 0.2135903418652333,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.007008067674728083
+    },
+    {
+      "features": {
+        "distance": 47.843811354478945,
+        "angle": 0.16675922351058056,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0035273027348950376
+    },
+    {
+      "features": {
+        "distance": 42.544847380476476,
+        "angle": 0.1581488824662391,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0009084667378625858
+    },
+    {
+      "features": {
+        "distance": 20.14000622894286,
+        "angle": 0.2677640972742251,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.10354350237013371
+    },
+    {
+      "features": {
+        "distance": 40.45727504691884,
+        "angle": 0.14847560678422336,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.005243691830140713
+    },
+    {
+      "features": {
+        "distance": 37.897780572048894,
+        "angle": 0.1298031893591747,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.016614809012441663
+    },
+    {
+      "features": {
+        "distance": 18.771111515653477,
+        "angle": 0.1301454133960179,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.036135824834991004
+    },
+    {
+      "features": {
+        "distance": 40.36706911777084,
+        "angle": 0.06539681199618835,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.006295768705401217
+    },
+    {
+      "features": {
+        "distance": 15.897734906042674,
+        "angle": 0.4493266831411546,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.13695623514244468
+    },
+    {
+      "features": {
+        "distance": 60.746815530666304,
+        "angle": 0.10543702627230314,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.00119612425452799
+    },
+    {
+      "features": {
+        "distance": 19.02417057618914,
+        "angle": 0.40019301698184373,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.023236810508944914
+    },
+    {
+      "features": {
+        "distance": 33.8936148203238,
+        "angle": 0.22529778474336157,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.016509110016801123
+    },
+    {
+      "features": {
+        "distance": 34.198294080672845,
+        "angle": 0.16236207036685993,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.026051608462782344
+    },
+    {
+      "features": {
+        "distance": 45.50506076915867,
+        "angle": 0.11611358248910605,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.004242998570656085
+    },
+    {
+      "features": {
+        "distance": 29.963614116315036,
+        "angle": 0.21337750786353285,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.03503622888063077
+    },
+    {
+      "features": {
+        "distance": 23.32295239654612,
+        "angle": 0.33423500882129664,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0216170158863566
+    },
+    {
+      "features": {
+        "distance": 16.866599647392082,
+        "angle": 0.4656480630765773,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.16400167537245433
+    },
+    {
+      "features": {
+        "distance": 28.661268216213415,
+        "angle": 0.1296659336700319,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0766357525879205
+    },
+    {
+      "features": {
+        "distance": 45.54596300653954,
+        "angle": 0.1561505309279461,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.00440894112084534
+    },
+    {
+      "features": {
+        "distance": 21.95389056473126,
+        "angle": 0.11618959129383184,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.03362760296784773
+    },
+    {
+      "features": {
+        "distance": 24.376672028163707,
+        "angle": 0.23754261228851994,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.009888419557152655
+    },
+    {
+      "features": {
+        "distance": 38.39609630518329,
+        "angle": 0.20001331505263487,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.005173619131085076
+    },
+    {
+      "features": {
+        "distance": 63.4477927825793,
+        "angle": 0.11350115372032694,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0005015367514793783
+    },
+    {
+      "features": {
+        "distance": 49.14479988649496,
+        "angle": 0.10928760764928475,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0021976003117875065
+    },
+    {
+      "features": {
+        "distance": 30.632786315755464,
+        "angle": 0.24095098799522868,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.005263088686246486
+    },
+    {
+      "features": {
+        "distance": 48.16156369143007,
+        "angle": 0.11131066444890604,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0043447185327074745
+    },
+    {
+      "features": {
+        "distance": 38.129346697433085,
+        "angle": 0.20372380605198404,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.007254528904704027
+    },
+    {
+      "features": {
+        "distance": 45.94027735964222,
+        "angle": 0.10890313462198033,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0065245997070449094
+    },
+    {
+      "features": {
+        "distance": 27.625710924140844,
+        "angle": 0.033489140765605815,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.019879102815159654
+    },
+    {
+      "features": {
+        "distance": 30.66563063332382,
+        "angle": 0.20883231835613836,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.013962725675436556
+    },
+    {
+      "features": {
+        "distance": 39.46427649158049,
+        "angle": 0.1964336805590189,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.009465049404474265
+    },
+    {
+      "features": {
+        "distance": 65.96157676583336,
+        "angle": 0.1025944914680599,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 9.944690366493805e-05
+    },
+    {
+      "features": {
+        "distance": 32.84327565479786,
+        "angle": 0.23066052447082025,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.018689122432500604
+    },
+    {
+      "features": {
+        "distance": 37.719957472875315,
+        "angle": 0.14114593798016556,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.008379694034149577
+    },
+    {
+      "features": {
+        "distance": 33.867394543665824,
+        "angle": 0.21685390148657985,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.009796938140873842
+    },
+    {
+      "features": {
+        "distance": 53.827417711620186,
+        "angle": 0.13204414620504965,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0013175637929540446
+    },
+    {
+      "features": {
+        "distance": 41.66337474337984,
+        "angle": 0.07898267221468114,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.006905448666068149
+    },
+    {
+      "features": {
+        "distance": 39.69898014176875,
+        "angle": 0.07710857998190271,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.01166186578074138
+    },
+    {
+      "features": {
+        "distance": 38.90599402128307,
+        "angle": 0.2048238094795302,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.004906476581151324
+    },
+    {
+      "features": {
+        "distance": 59.44895134211909,
+        "angle": 0.11730873643508714,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0005017936190516104
+    },
+    {
+      "features": {
+        "distance": 41.312331038404295,
+        "angle": 0.17943542219475875,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.011906102886032518
+    },
+    {
+      "features": {
+        "distance": 49.506083142937506,
+        "angle": 0.15964343376539158,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0011083395549515782
+    },
+    {
+      "features": {
+        "distance": 49.68497974809423,
+        "angle": 0.11857318704062353,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0058287586395433305
+    },
+    {
+      "features": {
+        "distance": 63.168716740150536,
+        "angle": 0.1187828637014461,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.00013940196382889434
+    },
+    {
+      "features": {
+        "distance": 63.655802731484435,
+        "angle": 0.10606522572334962,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0014600608534418693
+    },
+    {
+      "features": {
+        "distance": 46.038234790801575,
+        "angle": 0.17024120613628937,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.002837382112015866
+    },
+    {
+      "features": {
+        "distance": 9.769381389702396,
+        "angle": 0.7760596190814723,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.4783329899855227
+    },
+    {
+      "features": {
+        "distance": 43.79670804202049,
+        "angle": 0.16868079928620075,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0050461964445567085
+    },
+    {
+      "features": {
+        "distance": 18.48773043357606,
+        "angle": 0.14594802502138432,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.05788175575594293
+    },
+    {
+      "features": {
+        "distance": 57.95858297505078,
+        "angle": 0.12303722094615416,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0002028306774124037
+    },
+    {
+      "features": {
+        "distance": 7.330521071947811,
+        "angle": 0.5620345842745639,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.09773095753718924
+    },
+    {
+      "features": {
+        "distance": 36.8635109868267,
+        "angle": 0.16703616347382208,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.004874834504115986
+    },
+    {
+      "features": {
+        "distance": 39.03481635866451,
+        "angle": 0.19064454828526706,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0042194899845248626
+    },
+    {
+      "features": {
+        "distance": 53.80604452633202,
+        "angle": 0.14034447085377752,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0029488385002830013
+    },
+    {
+      "features": {
+        "distance": 57.601150924150375,
+        "angle": 0.11643561261158548,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0012574404142258182
+    },
+    {
+      "features": {
+        "distance": 15.733333248483289,
+        "angle": 0.40358611474865946,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.22388021966394928
+    },
+    {
+      "features": {
+        "distance": 28.50554390651298,
+        "angle": 0.24776036094456566,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.024793708869602065
+    },
+    {
+      "features": {
+        "distance": 11.657631436035489,
+        "angle": 0.5104352825567908,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.2722959354671899
+    },
+    {
+      "features": {
+        "distance": 53.019009919397426,
+        "angle": 0.14797830537310358,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0012458855553050569
+    },
+    {
+      "features": {
+        "distance": 34.665258961907774,
+        "angle": 0.022799417028601134,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.01694556001560137
+    },
+    {
+      "features": {
+        "distance": 33.360706939349676,
+        "angle": 0.23513766035680062,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0028249399414903213
+    },
+    {
+      "features": {
+        "distance": 17.288430498265633,
+        "angle": 0.20673663795589223,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.1304138268960078
+    },
+    {
+      "features": {
+        "distance": 37.30205388626115,
+        "angle": 0.04234386024999913,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0032341922618726966
+    },
+    {
+      "features": {
+        "distance": 31.15016146450389,
+        "angle": 0.179633455419258,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.027235004387009692
+    },
+    {
+      "features": {
+        "distance": 34.009467352622366,
+        "angle": 0.23402715767552493,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0035526858267543693
+    },
+    {
+      "features": {
+        "distance": 19.529329961501276,
+        "angle": 0.4032759476966381,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.12541402198330348
+    },
+    {
+      "features": {
+        "distance": 57.143654165472,
+        "angle": 0.13949691515189722,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0005334937744403847
+    },
+    {
+      "features": {
+        "distance": 25.15712147475061,
+        "angle": 0.021651154463636094,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.044835968133908305
+    },
+    {
+      "features": {
+        "distance": 34.88620404460638,
+        "angle": 0.0121660756055378,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0023404866700386653
+    },
+    {
+      "features": {
+        "distance": 37.411448612042,
+        "angle": 0.21176789774628413,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.005862024720746349
+    },
+    {
+      "features": {
+        "distance": 56.582955557972284,
+        "angle": 0.12936579932205092,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0008930686210909105
+    },
+    {
+      "features": {
+        "distance": 39.42724973157183,
+        "angle": 0.14117684579094236,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.005851305165699906
+    },
+    {
+      "features": {
+        "distance": 31.083141121271023,
+        "angle": 0.014543150538232068,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.02877284204455513
+    },
+    {
+      "features": {
+        "distance": 26.0141952440351,
+        "angle": 0.19143786706033877,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.016703825698847256
+    },
+    {
+      "features": {
+        "distance": 32.877386166446534,
+        "angle": 0.21735659468907031,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.012580719981410445
+    },
+    {
+      "features": {
+        "distance": 31.239832367864704,
+        "angle": 0.22853587556758959,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.04817691728448835
+    },
+    {
+      "features": {
+        "distance": 52.108062464026744,
+        "angle": 0.15066864030186133,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0008370526203942622
+    },
+    {
+      "features": {
+        "distance": 25.65854481506285,
+        "angle": 0.3082015585318004,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.06182607883645428
+    },
+    {
+      "features": {
+        "distance": 18.440532469629787,
+        "angle": 0.3043840488204497,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.10423153207902541
+    },
+    {
+      "features": {
+        "distance": 49.097269702385596,
+        "angle": 0.12301913576727336,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.005792366765694841
+    },
+    {
+      "features": {
+        "distance": 48.948403207737506,
+        "angle": 0.15361458269855624,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0017378599084618325
+    },
+    {
+      "features": {
+        "distance": 39.31264675779149,
+        "angle": 0.07885820235149858,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.016775445794451303
+    },
+    {
+      "features": {
+        "distance": 15.820614999719302,
+        "angle": 0.3772547084507243,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.22948117233575732
+    },
+    {
+      "features": {
+        "distance": 32.38644822423754,
+        "angle": 0.22294630676006333,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.027034292028704488
+    },
+    {
+      "features": {
+        "distance": 27.527324757606674,
+        "angle": 0.019054904093920782,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.021736839862106814
+    },
+    {
+      "features": {
+        "distance": 28.840395600714647,
+        "angle": 0.09193892183036055,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.02170454056689601
+    },
+    {
+      "features": {
+        "distance": 55.507721766059504,
+        "angle": 0.14223638999440133,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0006860799349715963
+    },
+    {
+      "features": {
+        "distance": 51.41144559018121,
+        "angle": 0.13186391573344672,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0044906371520582735
+    },
+    {
+      "features": {
+        "distance": 31.161785281955517,
+        "angle": 0.24148680553461094,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.02283375257005418
+    },
+    {
+      "features": {
+        "distance": 37.22718625392214,
+        "angle": 0.21289558589164723,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.008118309229493545
+    },
+    {
+      "features": {
+        "distance": 29.180004197763772,
+        "angle": 0.22187577589073593,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.013388378046921397
+    },
+    {
+      "features": {
+        "distance": 41.29148985530243,
+        "angle": 0.14825686799516788,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.005621851630340758
+    },
+    {
+      "features": {
+        "distance": 53.488581451613555,
+        "angle": 0.1146491812876574,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0008393483351732062
+    },
+    {
+      "features": {
+        "distance": 37.26941742144546,
+        "angle": 0.04710519252106773,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.007437400781008529
+    },
+    {
+      "features": {
+        "distance": 1.5610806679871796,
+        "angle": 2.397546401681228,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.9088422929742374
+    },
+    {
+      "features": {
+        "distance": 41.99108765106698,
+        "angle": 0.1056669027803453,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.003657840483064056
+    },
+    {
+      "features": {
+        "distance": 43.042081083723836,
+        "angle": 0.14142621339237255,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.003174344294679106
+    },
+    {
+      "features": {
+        "distance": 48.789677769448865,
+        "angle": 0.15510463056533574,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.001197260064651243
+    },
+    {
+      "features": {
+        "distance": 24.33772322094953,
+        "angle": 0.32517094464845203,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.025754949533952354
+    },
+    {
+      "features": {
+        "distance": 39.00346211616125,
+        "angle": 0.13183732989299687,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.00448620691693597
+    },
+    {
+      "features": {
+        "distance": 56.463011351238215,
+        "angle": 0.1283888571659304,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0006058104599447313
+    },
+    {
+      "features": {
+        "distance": 48.01292104568375,
+        "angle": 0.15129661073893982,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0015381657383855267
+    },
+    {
+      "features": {
+        "distance": 27.921420268499453,
+        "angle": 0.0894080761909866,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.015111050773727394
+    },
+    {
+      "features": {
+        "distance": 36.327778195361184,
+        "angle": 0.21838852777291,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.011737609038638274
+    },
+    {
+      "features": {
+        "distance": 40.9538730179441,
+        "angle": 0.18460977069001389,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0033668133551085695
+    },
+    {
+      "features": {
+        "distance": 41.68110705313043,
+        "angle": 0.1898456065202008,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.005242859479850094
+    },
+    {
+      "features": {
+        "distance": 19.532568121357176,
+        "angle": 0.11845291357790647,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.05324606730562203
+    },
+    {
+      "features": {
+        "distance": 21.37851359686327,
+        "angle": 0.05549029573964728,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.06985047176108344
+    },
+    {
+      "features": {
+        "distance": 48.51105027708215,
+        "angle": 0.15516091894230027,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0007782293572986277
+    },
+    {
+      "features": {
+        "distance": 37.28588890842973,
+        "angle": 0.16176563009772288,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.014612079913557011
+    },
+    {
+      "features": {
+        "distance": 30.07112526159454,
+        "angle": 0.14356747470353853,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.011817344181816914
+    },
+    {
+      "features": {
+        "distance": 30.53324408740102,
+        "angle": 0.23674649665741324,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.023004758188407946
+    },
+    {
+      "features": {
+        "distance": 51.282958068616864,
+        "angle": 0.14089705246575815,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0009104075842554241
+    },
+    {
+      "features": {
+        "distance": 29.72666773736404,
+        "angle": 0.2637367099709303,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.020027992848426726
+    },
+    {
+      "features": {
+        "distance": 53.87593735723446,
+        "angle": 0.12843477146458762,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.002129337241701824
+    },
+    {
+      "features": {
+        "distance": 53.98685454483578,
+        "angle": 0.1203300150602727,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0011907598112515442
+    },
+    {
+      "features": {
+        "distance": 53.2396879718384,
+        "angle": 0.14996628804557277,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0023438828737294875
+    },
+    {
+      "features": {
+        "distance": 61.617129480769236,
+        "angle": 0.12603154298039956,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0005909519267762318
+    },
+    {
+      "features": {
+        "distance": 27.045916932405138,
+        "angle": 0.13506426009020286,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.03051328179568406
+    },
+    {
+      "features": {
+        "distance": 14.994437723125662,
+        "angle": 0.19024935337157606,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.11744037954678752
+    },
+    {
+      "features": {
+        "distance": 53.322969276358016,
+        "angle": 0.13877827269803952,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.0011913765570018332
+    },
+    {
+      "features": {
+        "distance": 48.00625764126921,
+        "angle": 0.1399497903399046,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.00174808369939938
+    },
+    {
+      "features": {
+        "distance": 30.284197837284196,
+        "angle": 0.046105560841854146,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.01640316183173836
+    },
+    {
+      "features": {
+        "distance": 41.841033469017304,
+        "angle": 0.18114127073942002,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.014057087444096082
+    },
+    {
+      "features": {
+        "distance": 50.72378993594778,
+        "angle": 0.13103905216085274,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.000345518506315035
+    },
+    {
+      "features": {
+        "distance": 54.669347468909635,
+        "angle": 0.14095788976004175,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.001527756057862891
+    },
+    {
+      "features": {
+        "distance": 39.79279821046526,
+        "angle": 0.19480031493174776,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.0034987194104509497
+    },
+    {
+      "features": {
+        "distance": 58.85047819917081,
+        "angle": 0.10486164850572663,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.001485362452241374
+    },
+    {
+      "features": {
+        "distance": 27.317046566468637,
+        "angle": 0.0276077129612865,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.02245741329337931
+    },
+    {
+      "features": {
+        "distance": 53.09450618784877,
+        "angle": 0.14129464676518025,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0003340496106013279
+    },
+    {
+      "features": {
+        "distance": 66.45607627595739,
+        "angle": 0.10780792598182425,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 6.961781052795181e-05
+    },
+    {
+      "features": {
+        "distance": 53.91896249934344,
+        "angle": 0.11205700988491228,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0009403874357243055
+    },
+    {
+      "features": {
+        "distance": 12.188122780057714,
+        "angle": 0.26139641245528095,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.25243890449309153
+    },
+    {
+      "features": {
+        "distance": 39.77872157130318,
+        "angle": 0.20043704136287663,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.006587180460700687
+    },
+    {
+      "features": {
+        "distance": 51.88957395809345,
+        "angle": 0.14089596258629966,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0009185663351425747
+    },
+    {
+      "features": {
+        "distance": 23.613961765667987,
+        "angle": 0.12937152826553844,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.07319905666615187
+    },
+    {
+      "features": {
+        "distance": 49.56572711179526,
+        "angle": 0.13884033372335405,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0004992843005297707
+    },
+    {
+      "features": {
+        "distance": 63.7536348586689,
+        "angle": 0.11575250330151891,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.00024372310638285164
+    },
+    {
+      "features": {
+        "distance": 52.43888374335168,
+        "angle": 0.10883185458842122,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0022522102369045005
+    },
+    {
+      "features": {
+        "distance": 61.772409873536176,
+        "angle": 0.11912817267958292,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.0006114201092279137
+    },
+    {
+      "features": {
+        "distance": 37.73507552839186,
+        "angle": 0.07116738443797949,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.005252523160228316
+    },
+    {
+      "features": {
+        "distance": 29.375437279907292,
+        "angle": 0.25994255647505127,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.004574799623391489
+    },
+    {
+      "features": {
+        "distance": 36.99557327552793,
+        "angle": 0.1714803648998971,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.006364232819750352
+    },
+    {
+      "features": {
+        "distance": 8.17306215874064,
+        "angle": 0.8785383584696946,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.35689507102232854
+    },
+    {
+      "features": {
+        "distance": 54.03021619490829,
+        "angle": 0.14265482727662723,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.0008793673557822599
+    },
+    {
+      "features": {
+        "distance": 36.286064331058206,
+        "angle": 0.19308233255967908,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.008325583724607254
+    },
+    {
+      "features": {
+        "distance": 46.17422008110426,
+        "angle": 0.14871406923197045,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.005103387670609623
+    },
+    {
+      "features": {
+        "distance": 19.474727511100777,
+        "angle": 0.029808264441902675,
+        "body_part": "Head",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.01865188634514043
+    },
+    {
+      "features": {
+        "distance": 19.521938451771668,
+        "angle": 0.40144574578422154,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.06232643037026568
+    },
+    {
+      "features": {
+        "distance": 35.326820453554134,
+        "angle": 0.0377014374497912,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.02156477120733551
+    },
+    {
+      "features": {
+        "distance": 15.024013354983301,
+        "angle": 0.35673604077948,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.2027680245072434
+    },
+    {
+      "features": {
+        "distance": 26.550615228850937,
+        "angle": 0.2158893455103894,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.03713995290605158
+    },
+    {
+      "features": {
+        "distance": 40.65176080740833,
+        "angle": 0.16828149638833967,
+        "body_part": "Head",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.003166690255053228
+    },
+    {
+      "features": {
+        "distance": 41.139738016688995,
+        "angle": 0.16435928357005805,
+        "body_part": "Left Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.006410791742318077
+    },
+    {
+      "features": {
+        "distance": 15.205361516215392,
+        "angle": 0.4223598915864152,
+        "body_part": "Left Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.07002141451257735
+    },
+    {
+      "features": {
+        "distance": 44.34298541181914,
+        "angle": 0.1379701884195483,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.010927184944781858
+    },
+    {
+      "features": {
+        "distance": 9.074791674081464,
+        "angle": 0.34457066056382835,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 1
+      },
+      "expected": 0.14168997793795393
+    },
+    {
+      "features": {
+        "distance": 25.787809907200337,
+        "angle": 0.01963996916164531,
+        "body_part": "Other",
+        "shot_type": "Open Play",
+        "under_pressure": 0,
+        "first_time": 1
+      },
+      "expected": 0.035533762519140415
+    },
+    {
+      "features": {
+        "distance": 46.774712219701804,
+        "angle": 0.16993661112176775,
+        "body_part": "Right Foot",
+        "shot_type": "Open Play",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.002268309732861025
+    },
+    {
+      "features": {
+        "distance": 30.461836224063138,
+        "angle": 0.033882940021979904,
+        "body_part": "Right Foot",
+        "shot_type": "Free Kick",
+        "under_pressure": 1,
+        "first_time": 0
+      },
+      "expected": 0.027474971904500996
+    },
+    {
+      "features": {
+        "distance": 43.56010758452562,
+        "angle": 0.1457176047314566,
+        "body_part": "Other",
+        "shot_type": "Free Kick",
+        "under_pressure": 0,
+        "first_time": 0
+      },
+      "expected": 0.01506327856741
+    }
+  ],
+  "optimizations": [
+    {
+      "feasible": false,
+      "budget": 30,
+      "selection": [],
+      "examined_feasible": 0
+    },
+    {
+      "feasible": true,
+      "budget": 60,
+      "total_cost": 60,
+      "total_score": 140.2381993006993,
+      "selection": [
+        {
+          "player_id": 30289,
+          "display_name": "Papiss Demba Ciss\u00e9",
+          "team": "Newcastle United",
+          "minutes": 1068.6616166666668,
+          "appearances": 21,
+          "goals": 3.0,
+          "non_penalty_goals": 3.0,
+          "npxg": 3.443988883998323,
+          "npxa": 1.131198963653953,
+          "npxg_p90": 0.290044102572583,
+          "npxa_p90": 0.095266738452169,
+          "key_passes_p90": 0.842174909217054,
+          "progressive_passes_p90": 1.010609891060465,
+          "progressive_carries_p90": 0.926392400138759,
+          "pressures_p90": 16.169758256967434,
+          "goals_minus_npxg": -0.443988883998323,
+          "role": "Striker",
+          "score": 42.95454545454546,
+          "role_share": 0.974494826449352,
+          "cost_credits": 19,
+          "primary_team_id": 37
+        },
+        {
+          "player_id": 22281,
+          "display_name": "Duncan Watmore",
+          "team": "Sunderland",
+          "minutes": 912.7478833333333,
+          "appearances": 23,
+          "goals": 3.0,
+          "non_penalty_goals": 3.0,
+          "npxg": 1.860360262817618,
+          "npxa": 0.884252368087658,
+          "npxg_p90": 0.183437756154664,
+          "npxa_p90": 0.087190246705646,
+          "key_passes_p90": 0.986033510933185,
+          "progressive_passes_p90": 0.788826808746548,
+          "progressive_carries_p90": 6.113407767785748,
+          "pressures_p90": 15.38212277055769,
+          "goals_minus_npxg": 1.139639737182382,
+          "role": "Winger",
+          "score": 41.34615384615385,
+          "role_share": 0.706095511259562,
+          "cost_credits": 18,
+          "primary_team_id": 41
+        },
+        {
+          "player_id": 3304,
+          "display_name": "Harry Arter",
+          "team": "AFC Bournemouth",
+          "minutes": 1666.7564666666667,
+          "appearances": 21,
+          "goals": 1.0,
+          "non_penalty_goals": 1.0,
+          "npxg": 1.177954388187668,
+          "npxa": 1.098494347536627,
+          "npxg_p90": 0.063606109864935,
+          "npxa_p90": 0.0593154988479,
+          "key_passes_p90": 1.295930175282156,
+          "progressive_passes_p90": 6.425653785774022,
+          "progressive_carries_p90": 4.697746885397815,
+          "pressures_p90": 25.270638418002036,
+          "goals_minus_npxg": -0.177954388187668,
+          "role": "Creator",
+          "score": 55.9375,
+          "role_share": 0.919004364044865,
+          "cost_credits": 23,
+          "primary_team_id": 28
+        }
+      ],
+      "examined_feasible": 3217
+    },
+    {
+      "feasible": true,
+      "budget": 75,
+      "total_cost": 75,
+      "total_score": 207.247668997669,
+      "selection": [
+        {
+          "player_id": 3598,
+          "display_name": "Wilfried Bony",
+          "team": "Manchester City",
+          "minutes": 1226.0508166666666,
+          "appearances": 26,
+          "goals": 4.0,
+          "non_penalty_goals": 4.0,
+          "npxg": 6.356842861484603,
+          "npxa": 1.438479574709407,
+          "npxg_p90": 0.466633070796411,
+          "npxa_p90": 0.105593634426855,
+          "key_passes_p90": 0.807470609327245,
+          "progressive_passes_p90": 0.807470609327245,
+          "progressive_carries_p90": 1.101096285446244,
+          "pressures_p90": 7.193829064915458,
+          "goals_minus_npxg": -2.356842861484603,
+          "role": "Striker",
+          "score": 70.56818181818183,
+          "role_share": 0.941828621051311,
+          "cost_credits": 25,
+          "primary_team_id": 36
+        },
+        {
+          "player_id": 3297,
+          "display_name": "Andros Townsend",
+          "team": "Newcastle United",
+          "minutes": 1153.2484,
+          "appearances": 16,
+          "goals": 4.0,
+          "non_penalty_goals": 4.0,
+          "npxg": 1.433951305255679,
+          "npxa": 3.207521154413457,
+          "npxg_p90": 0.111906175177014,
+          "npxa_p90": 0.25031632725197,
+          "key_passes_p90": 2.34121287313297,
+          "progressive_passes_p90": 1.794929869401943,
+          "progressive_carries_p90": 10.067215354471768,
+          "pressures_p90": 21.61719886192775,
+          "goals_minus_npxg": 2.566048694744321,
+          "role": "Winger",
+          "score": 67.17948717948717,
+          "role_share": 0.999260147828227,
+          "cost_credits": 24,
+          "primary_team_id": 37
+        },
+        {
+          "player_id": 3535,
+          "display_name": "Roberto Firmino",
+          "team": "Liverpool",
+          "minutes": 1980.9989,
+          "appearances": 31,
+          "goals": 10.0,
+          "non_penalty_goals": 10.0,
+          "npxg": 5.674208016323766,
+          "npxa": 4.402321218181036,
+          "npxg_p90": 0.257788493203676,
+          "npxa_p90": 0.200004608602404,
+          "key_passes_p90": 1.998991518874644,
+          "progressive_passes_p90": 2.362444522306398,
+          "progressive_carries_p90": 3.498235158030628,
+          "pressures_p90": 27.895018013387084,
+          "goals_minus_npxg": 4.325791983676234,
+          "role": "Creator",
+          "score": 69.5,
+          "role_share": 0.451500351666021,
+          "cost_credits": 26,
+          "primary_team_id": 24
+        }
+      ],
+      "examined_feasible": 109785
+    },
+    {
+      "feasible": true,
+      "budget": 90,
+      "total_cost": 90,
+      "total_score": 242.85052447552448,
+      "selection": [
+        {
+          "player_id": 10955,
+          "display_name": "Harry Kane",
+          "team": "Tottenham Hotspur",
+          "minutes": 3365.631533333333,
+          "appearances": 38,
+          "goals": 25.0,
+          "non_penalty_goals": 20.0,
+          "npxg": 15.54079362999705,
+          "npxa": 3.258260437245913,
+          "npxg_p90": 0.415574733255035,
+          "npxa_p90": 0.087128800775676,
+          "key_passes_p90": 1.069635806637023,
+          "progressive_passes_p90": 1.63119460512146,
+          "progressive_carries_p90": 3.235648315076994,
+          "pressures_p90": 13.129779526469456,
+          "goals_minus_npxg": 4.459206370002949,
+          "role": "Striker",
+          "score": 72.84090909090908,
+          "role_share": 1.0,
+          "cost_credits": 29,
+          "primary_team_id": 38
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "minutes": 1999.5103666666666,
+          "appearances": 26,
+          "goals": 8.0,
+          "non_penalty_goals": 8.0,
+          "npxg": 6.829763728583767,
+          "npxa": 4.200340086344323,
+          "npxg_p90": 0.307414628010784,
+          "npxa_p90": 0.189061589313585,
+          "key_passes_p90": 2.160528933491734,
+          "progressive_passes_p90": 6.481586800475204,
+          "progressive_carries_p90": 6.526597819922948,
+          "pressures_p90": 17.23922044848613,
+          "goals_minus_npxg": 1.170236271416233,
+          "role": "Winger",
+          "score": 82.88461538461539,
+          "role_share": 0.709956475844561,
+          "cost_credits": 30,
+          "primary_team_id": 24
+        },
+        {
+          "player_id": 3473,
+          "display_name": "James Milner",
+          "team": "Liverpool",
+          "minutes": 2411.798333333333,
+          "appearances": 28,
+          "goals": 5.0,
+          "non_penalty_goals": 4.0,
+          "npxg": 2.881488229596934,
+          "npxa": 6.194445881354545,
+          "npxg_p90": 0.107527207842996,
+          "npxa_p90": 0.231155367186688,
+          "key_passes_p90": 2.276309724624571,
+          "progressive_passes_p90": 5.970648458031663,
+          "progressive_carries_p90": 3.470439416230904,
+          "pressures_p90": 23.73332762067586,
+          "goals_minus_npxg": 1.118511770403066,
+          "role": "Creator",
+          "score": 87.125,
+          "role_share": 0.430385341781617,
+          "cost_credits": 31,
+          "primary_team_id": 24
+        }
+      ],
+      "examined_feasible": 257575
+    },
+    {
+      "feasible": true,
+      "budget": 105,
+      "total_cost": 104,
+      "total_score": 257.70847902097904,
+      "selection": [
+        {
+          "player_id": 3604,
+          "display_name": "Olivier Giroud",
+          "team": "Arsenal",
+          "minutes": 2427.917516666667,
+          "appearances": 38,
+          "goals": 16.0,
+          "non_penalty_goals": 15.0,
+          "npxg": 13.045622224194204,
+          "npxa": 4.457125459006103,
+          "npxg_p90": 0.483585621059084,
+          "npxa_p90": 0.165220312698795,
+          "key_passes_p90": 1.186201747065117,
+          "progressive_passes_p90": 0.556032068936774,
+          "progressive_carries_p90": 1.334476965448256,
+          "pressures_p90": 15.791310757804366,
+          "goals_minus_npxg": 1.954377775805796,
+          "role": "Striker",
+          "score": 84.88636363636364,
+          "role_share": 0.979547287064276,
+          "cost_credits": 36,
+          "primary_team_id": 1
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "minutes": 1999.5103666666666,
+          "appearances": 26,
+          "goals": 8.0,
+          "non_penalty_goals": 8.0,
+          "npxg": 6.829763728583767,
+          "npxa": 4.200340086344323,
+          "npxg_p90": 0.307414628010784,
+          "npxa_p90": 0.189061589313585,
+          "key_passes_p90": 2.160528933491734,
+          "progressive_passes_p90": 6.481586800475204,
+          "progressive_carries_p90": 6.526597819922948,
+          "pressures_p90": 17.23922044848613,
+          "goals_minus_npxg": 1.170236271416233,
+          "role": "Winger",
+          "score": 82.88461538461539,
+          "role_share": 0.709956475844561,
+          "cost_credits": 30,
+          "primary_team_id": 24
+        },
+        {
+          "player_id": 3478,
+          "display_name": "Cesc F\u00e0bregas",
+          "team": "Chelsea",
+          "minutes": 2896.3087333333333,
+          "appearances": 37,
+          "goals": 5.0,
+          "non_penalty_goals": 3.0,
+          "npxg": 3.436501836507679,
+          "npxa": 6.80863694967752,
+          "npxg_p90": 0.106785979590559,
+          "npxa_p90": 0.211571825343957,
+          "key_passes_p90": 2.144108440004934,
+          "progressive_passes_p90": 12.025651685245066,
+          "progressive_carries_p90": 3.51136599595011,
+          "pressures_p90": 24.113451441214913,
+          "goals_minus_npxg": -0.436501836507679,
+          "role": "Creator",
+          "score": 89.9375,
+          "role_share": 0.52104089686019,
+          "cost_credits": 38,
+          "primary_team_id": 33
+        }
+      ],
+      "examined_feasible": 272090
+    },
+    {
+      "feasible": true,
+      "budget": 120,
+      "total_cost": 104,
+      "total_score": 257.70847902097904,
+      "selection": [
+        {
+          "player_id": 3604,
+          "display_name": "Olivier Giroud",
+          "team": "Arsenal",
+          "minutes": 2427.917516666667,
+          "appearances": 38,
+          "goals": 16.0,
+          "non_penalty_goals": 15.0,
+          "npxg": 13.045622224194204,
+          "npxa": 4.457125459006103,
+          "npxg_p90": 0.483585621059084,
+          "npxa_p90": 0.165220312698795,
+          "key_passes_p90": 1.186201747065117,
+          "progressive_passes_p90": 0.556032068936774,
+          "progressive_carries_p90": 1.334476965448256,
+          "pressures_p90": 15.791310757804366,
+          "goals_minus_npxg": 1.954377775805796,
+          "role": "Striker",
+          "score": 84.88636363636364,
+          "role_share": 0.979547287064276,
+          "cost_credits": 36,
+          "primary_team_id": 1
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "minutes": 1999.5103666666666,
+          "appearances": 26,
+          "goals": 8.0,
+          "non_penalty_goals": 8.0,
+          "npxg": 6.829763728583767,
+          "npxa": 4.200340086344323,
+          "npxg_p90": 0.307414628010784,
+          "npxa_p90": 0.189061589313585,
+          "key_passes_p90": 2.160528933491734,
+          "progressive_passes_p90": 6.481586800475204,
+          "progressive_carries_p90": 6.526597819922948,
+          "pressures_p90": 17.23922044848613,
+          "goals_minus_npxg": 1.170236271416233,
+          "role": "Winger",
+          "score": 82.88461538461539,
+          "role_share": 0.709956475844561,
+          "cost_credits": 30,
+          "primary_team_id": 24
+        },
+        {
+          "player_id": 3478,
+          "display_name": "Cesc F\u00e0bregas",
+          "team": "Chelsea",
+          "minutes": 2896.3087333333333,
+          "appearances": 37,
+          "goals": 5.0,
+          "non_penalty_goals": 3.0,
+          "npxg": 3.436501836507679,
+          "npxa": 6.80863694967752,
+          "npxg_p90": 0.106785979590559,
+          "npxa_p90": 0.211571825343957,
+          "key_passes_p90": 2.144108440004934,
+          "progressive_passes_p90": 12.025651685245066,
+          "progressive_carries_p90": 3.51136599595011,
+          "pressures_p90": 24.113451441214913,
+          "goals_minus_npxg": -0.436501836507679,
+          "role": "Creator",
+          "score": 89.9375,
+          "role_share": 0.52104089686019,
+          "cost_credits": 38,
+          "primary_team_id": 33
+        }
+      ],
+      "examined_feasible": 272119
+    },
+    {
+      "feasible": true,
+      "budget": 150,
+      "total_cost": 104,
+      "total_score": 257.70847902097904,
+      "selection": [
+        {
+          "player_id": 3604,
+          "display_name": "Olivier Giroud",
+          "team": "Arsenal",
+          "minutes": 2427.917516666667,
+          "appearances": 38,
+          "goals": 16.0,
+          "non_penalty_goals": 15.0,
+          "npxg": 13.045622224194204,
+          "npxa": 4.457125459006103,
+          "npxg_p90": 0.483585621059084,
+          "npxa_p90": 0.165220312698795,
+          "key_passes_p90": 1.186201747065117,
+          "progressive_passes_p90": 0.556032068936774,
+          "progressive_carries_p90": 1.334476965448256,
+          "pressures_p90": 15.791310757804366,
+          "goals_minus_npxg": 1.954377775805796,
+          "role": "Striker",
+          "score": 84.88636363636364,
+          "role_share": 0.979547287064276,
+          "cost_credits": 36,
+          "primary_team_id": 1
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "minutes": 1999.5103666666666,
+          "appearances": 26,
+          "goals": 8.0,
+          "non_penalty_goals": 8.0,
+          "npxg": 6.829763728583767,
+          "npxa": 4.200340086344323,
+          "npxg_p90": 0.307414628010784,
+          "npxa_p90": 0.189061589313585,
+          "key_passes_p90": 2.160528933491734,
+          "progressive_passes_p90": 6.481586800475204,
+          "progressive_carries_p90": 6.526597819922948,
+          "pressures_p90": 17.23922044848613,
+          "goals_minus_npxg": 1.170236271416233,
+          "role": "Winger",
+          "score": 82.88461538461539,
+          "role_share": 0.709956475844561,
+          "cost_credits": 30,
+          "primary_team_id": 24
+        },
+        {
+          "player_id": 3478,
+          "display_name": "Cesc F\u00e0bregas",
+          "team": "Chelsea",
+          "minutes": 2896.3087333333333,
+          "appearances": 37,
+          "goals": 5.0,
+          "non_penalty_goals": 3.0,
+          "npxg": 3.436501836507679,
+          "npxa": 6.80863694967752,
+          "npxg_p90": 0.106785979590559,
+          "npxa_p90": 0.211571825343957,
+          "key_passes_p90": 2.144108440004934,
+          "progressive_passes_p90": 12.025651685245066,
+          "progressive_carries_p90": 3.51136599595011,
+          "pressures_p90": 24.113451441214913,
+          "goals_minus_npxg": -0.436501836507679,
+          "role": "Creator",
+          "score": 89.9375,
+          "role_share": 0.52104089686019,
+          "cost_credits": 38,
+          "primary_team_id": 33
+        }
+      ],
+      "examined_feasible": 272119
+    }
+  ]
+}

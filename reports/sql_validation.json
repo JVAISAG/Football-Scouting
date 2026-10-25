@@ -1,0 +1,58 @@
+[
+  {
+    "query": "01_source_coverage",
+    "rows": 1
+  },
+  {
+    "query": "02_event_mix",
+    "rows": 33
+  },
+  {
+    "query": "03_minutes_and_eligibility",
+    "rows": 324
+  },
+  {
+    "query": "04_scorers_vs_chance_quality",
+    "rows": 20
+  },
+  {
+    "query": "05_role_shortlist_window_ranking",
+    "rows": 30
+  },
+  {
+    "query": "06_keypass_to_shot_join",
+    "rows": 25
+  },
+  {
+    "query": "07_shot_quality_by_distance",
+    "rows": 3
+  },
+  {
+    "query": "08_progression_leaders",
+    "rows": 25
+  },
+  {
+    "query": "09_model_split_reconciliation",
+    "rows": 3
+  },
+  {
+    "query": "10_team_rolling_chance_creation",
+    "rows": 760
+  },
+  {
+    "query": "11_explain_role_score",
+    "rows": 15
+  },
+  {
+    "query": "12_under_pressure_description",
+    "rows": 2
+  },
+  {
+    "query": "13_warehouse_integrity",
+    "rows": 3
+  },
+  {
+    "query": "14_role_budget_candidates",
+    "rows": 169
+  }
+]

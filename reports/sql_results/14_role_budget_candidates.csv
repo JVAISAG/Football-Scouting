@@ -1,0 +1,170 @@
+role,display_name,team,score,cost_credits,score_per_credit
+Creator,Philippe Coutinho,Liverpool,86.06,30,2.869
+Creator,James Ward-Prowse,Southampton,74.19,29,2.558
+Creator,Yaya Touré,Manchester City,71.81,27,2.66
+Creator,Roberto Firmino,Liverpool,69.5,26,2.673
+Creator,Jordan Henderson,Liverpool,69.38,28,2.478
+Creator,Wes Hoolahan,Norwich City,69.19,30,2.306
+Creator,Adam Lallana,Liverpool,69.0,28,2.464
+Creator,Dele Alli,Tottenham Hotspur,68.94,27,2.553
+Creator,Oscar,Chelsea,68.13,30,2.271
+Creator,Yohan Cabaye,Crystal Palace,65.38,27,2.421
+Creator,Gylfi Sigurðsson,Swansea City,65.13,30,2.171
+Creator,Danny Drinkwater,Leicester City,63.81,28,2.279
+Creator,Tom Cleverley,Everton,62.69,25,2.507
+Creator,Wayne Rooney,Manchester United,58.06,27,2.15
+Creator,Manuel Lanzini,West Ham United,57.88,27,2.144
+Creator,Harry Arter,AFC Bournemouth,55.94,23,2.432
+Creator,Mark Noble,West Ham United,55.88,29,1.927
+Creator,Gareth Barry,Everton,55.5,25,2.22
+Creator,Ander Herrera,Manchester United,54.88,23,2.386
+Creator,Yann M'Vila,Sunderland,54.75,30,1.825
+Creator,Sadio Mané,Southampton,54.56,29,1.881
+Creator,Graham Dorrans,Norwich City,54.38,24,2.266
+Creator,Craig Gardner,West Bromwich Albion,53.5,23,2.326
+Creator,Charlie Adam,Stoke City,52.0,23,2.261
+Creator,Fernandinho,Manchester City,50.25,26,1.933
+Creator,Jeremain Lens,Sunderland,49.56,21,2.36
+Creator,Bojan,Stoke City,49.19,27,1.822
+Creator,Emre Can,Liverpool,48.0,23,2.087
+Creator,James Morrison,West Bromwich Albion,46.94,24,1.956
+Creator,Andrew Surman,AFC Bournemouth,46.88,29,1.616
+Creator,Ki Sung-Yeung,Swansea City,46.56,21,2.217
+Creator,Steven Naismith,Norwich City,46.56,21,2.217
+Creator,Ben Watson,Watford,45.81,23,1.992
+Creator,Ibrahim Afellay,Stoke City,43.94,26,1.69
+Creator,Oriol Romeu,Southampton,43.69,23,1.899
+Creator,Jack Rodwell,Sunderland,43.13,24,1.797
+Creator,Bastian Schweinsteiger,Manchester United,40.88,23,1.777
+Creator,Dan Gosling,AFC Bournemouth,40.75,25,1.63
+Creator,Marouane Fellaini,Manchester United,39.94,24,1.664
+Creator,Georginio Wijnaldum,Newcastle United,39.13,26,1.505
+Creator,Jonathan Howson,Norwich City,36.88,23,1.603
+Creator,Giannelli Imbula,Stoke City,36.06,24,1.503
+Creator,Andy King,Leicester City,35.25,21,1.679
+Creator,Étienne Capoue,Watford,34.44,25,1.377
+Creator,Jack Cork,Swansea City,32.88,24,1.37
+Creator,N'Golo Kanté,Leicester City,32.06,26,1.233
+Creator,Nemanja Matić,Chelsea,31.63,19,1.664
+Creator,Cheik Tioté,Newcastle United,31.31,21,1.491
+Creator,Lee Cattermole,Sunderland,30.0,21,1.429
+Creator,Jack Colback,Newcastle United,29.0,22,1.318
+Creator,Darren Fletcher,West Bromwich Albion,28.31,24,1.18
+Creator,Mousa Dembélé,Tottenham Hotspur,27.88,24,1.161
+Creator,Vurnon Anita,Newcastle United,27.88,18,1.549
+Creator,Michael Carrick,Manchester United,26.63,22,1.21
+Creator,Victor Wanyama,Southampton,25.13,22,1.142
+Creator,Idrissa Gueye,Aston Villa,25.06,25,1.002
+Creator,James McArthur,Crystal Palace,24.19,23,1.052
+Creator,Mathieu Flamini,Arsenal,23.31,17,1.371
+Creator,James McCarthy,Everton,22.88,19,1.204
+Creator,Gary O'Neil,Norwich City,21.56,18,1.198
+Creator,Morgan Schneiderlin,Manchester United,18.69,18,1.038
+Creator,Cheikhou Kouyaté,West Ham United,15.0,19,0.789
+Creator,Fernando Reges,Manchester City,14.63,15,0.975
+Creator,Joe Ledley,Crystal Palace,12.06,13,0.928
+Creator,Valon Behrami,Watford,10.06,16,0.629
+Striker,Harry Kane,Tottenham Hotspur,72.84,29,2.512
+Striker,Leonardo Ulloa,Leicester City,71.59,27,2.652
+Striker,Wilfried Bony,Manchester City,70.57,25,2.823
+Striker,Diafra Sakho,West Ham United,67.84,25,2.714
+Striker,Diego Costa,Chelsea,67.61,30,2.254
+Striker,Theo Walcott,Arsenal,64.09,24,2.67
+Striker,Joshua King,AFC Bournemouth,63.64,25,2.545
+Striker,Andy Carroll,West Ham United,59.89,24,2.495
+Striker,Graziano Pellè,Southampton,57.16,26,2.198
+Striker,Daniel Sturridge,Liverpool,56.82,22,2.583
+Striker,Roberto Firmino,Liverpool,55.0,26,2.115
+Striker,Enner Valencia,West Ham United,52.61,27,1.949
+Striker,Jermain Defoe,Sunderland,50.57,28,1.806
+Striker,Dieumerci Mbokani Bezua,Norwich City,48.75,24,2.031
+Striker,Salomón Rondón,West Bromwich Albion,48.41,25,1.936
+Striker,Shinji Okazaki,Leicester City,48.3,24,2.012
+Striker,Shane Long,Southampton,48.07,28,1.717
+Striker,Cameron Jerome,Norwich City,47.61,26,1.831
+Striker,Rudy Gestede,Aston Villa,46.02,21,2.192
+Striker,Connor Wickham,Crystal Palace,44.55,25,1.782
+Striker,Papiss Demba Cissé,Newcastle United,42.95,19,2.261
+Striker,Bafétimbi Gomis,Swansea City,41.02,24,1.709
+Striker,Anthony Martial,Manchester United,40.45,30,1.348
+Striker,Mame Diouf,Stoke City,37.05,23,1.611
+Striker,Ayoze Pérez,Newcastle United,36.14,25,1.445
+Striker,Yannick Bolasie,Crystal Palace,35.34,28,1.262
+Striker,Jonathan Walters,Stoke City,34.43,20,1.722
+Striker,Benik Afobe,AFC Bournemouth,33.64,19,1.77
+Striker,André Ayew,Swansea City,33.52,22,1.524
+Striker,Wayne Rooney,Manchester United,33.07,27,1.225
+Striker,Steven Fletcher,Sunderland,32.95,23,1.433
+Striker,Troy Deeney,Watford,31.36,24,1.307
+Striker,Joselu,Stoke City,29.43,19,1.549
+Striker,Saido Berahino,West Bromwich Albion,26.82,20,1.341
+Striker,Bojan,Stoke City,26.48,27,0.981
+Striker,Jordan Ayew,Aston Villa,26.48,27,0.981
+Striker,Gabriel Agbonlahor,Aston Villa,25.34,21,1.207
+Winger,Philippe Coutinho,Liverpool,82.88,30,2.763
+Winger,Dušan Tadić,Southampton,71.79,29,2.476
+Winger,Willian,Chelsea,71.41,28,2.55
+Winger,Alex Oxlade-Chamberlain,Arsenal,69.62,28,2.486
+Winger,Nacer Chadli,Tottenham Hotspur,68.78,25,2.751
+Winger,Junior Stanislas,AFC Bournemouth,67.76,29,2.336
+Winger,Andros Townsend,Newcastle United,67.18,24,2.799
+Winger,Gerard Deulofeu,Everton,66.99,26,2.576
+Winger,Sadio Mané,Southampton,65.45,29,2.257
+Winger,Erik Lamela,Tottenham Hotspur,64.87,27,2.403
+Winger,Pedro,Chelsea,64.23,28,2.294
+Winger,Oscar,Chelsea,63.85,30,2.128
+Winger,Eden Hazard,Chelsea,63.59,27,2.355
+Winger,Aaron Ramsey,Arsenal,63.53,29,2.191
+Winger,Adam Lallana,Liverpool,61.92,28,2.212
+Winger,Raheem Sterling,Manchester City,60.96,30,2.032
+Winger,Jesús Navas,Manchester City,60.32,28,2.154
+Winger,Marko Arnautović,Stoke City,60.13,26,2.313
+Winger,Jordon Ibe,Liverpool,59.68,24,2.487
+Winger,Anthony Martial,Manchester United,58.14,30,1.938
+Winger,Nathan Redmond,Norwich City,56.41,27,2.089
+Winger,Yannick Bolasie,Crystal Palace,55.58,28,1.985
+Winger,Marc Albrighton,Leicester City,55.32,28,1.976
+Winger,Manuel Lanzini,West Ham United,54.81,27,2.03
+Winger,Wilfried Zaha,Crystal Palace,54.17,24,2.257
+Winger,Moussa Sissoko,Newcastle United,52.76,29,1.819
+Winger,Wahbi Khazri,Sunderland,52.05,25,2.082
+Winger,Jeffrey Schlupp,Leicester City,49.68,27,1.84
+Winger,Kevin Mirallas,Everton,49.1,25,1.964
+Winger,Jefferson Montero,Swansea City,49.1,21,2.338
+Winger,Jeremain Lens,Sunderland,48.78,21,2.323
+Winger,Robert Brady,Norwich City,48.46,29,1.671
+Winger,James Ward-Prowse,Southampton,48.08,29,1.658
+Winger,Matt Ritchie,AFC Bournemouth,48.01,28,1.715
+Winger,Victor Moses,West Ham United,47.69,20,2.385
+Winger,Bakary Sako,Crystal Palace,47.69,24,1.987
+Winger,Ayoze Pérez,Newcastle United,47.37,25,1.895
+Winger,Craig Gardner,West Bromwich Albion,46.99,23,2.043
+Winger,Xherdan Shaqiri,Stoke City,45.96,26,1.768
+Winger,Memphis Depay,Manchester United,45.26,26,1.741
+Winger,Son Heung-Min,Tottenham Hotspur,44.29,22,2.013
+Winger,Enner Valencia,West Ham United,43.08,27,1.595
+Winger,Carles Gil,Aston Villa,42.44,22,1.929
+Winger,Michail Antonio,West Ham United,42.37,24,1.765
+Winger,Stéphane Sessègnon,West Bromwich Albion,42.12,25,1.685
+Winger,Duncan Watmore,Sunderland,41.35,18,2.297
+Winger,Tom Cleverley,Everton,41.09,25,1.644
+Winger,Marc Pugh,AFC Bournemouth,40.51,25,1.621
+Winger,Jordan Ayew,Aston Villa,39.81,27,1.474
+Winger,Jesse Lingard,Manchester United,39.62,22,1.801
+Winger,Steven Naismith,Norwich City,39.29,21,1.871
+Winger,Theo Walcott,Arsenal,38.91,24,1.621
+Winger,Fabio Borini,Sunderland,36.54,22,1.661
+Winger,André Ayew,Swansea City,35.19,22,1.6
+Winger,Arouna Koné,Everton,33.14,23,1.441
+Winger,James McClean,West Bromwich Albion,33.08,19,1.741
+Winger,Aaron Lennon,Everton,32.44,23,1.41
+Winger,Almen Abdi,Watford,31.73,21,1.511
+Winger,José Jurado,Watford,30.77,21,1.465
+Winger,Matt Jarvis,Norwich City,29.74,21,1.416
+Winger,Wayne Routledge,Swansea City,29.68,22,1.349
+Winger,Jonathan Walters,Stoke City,29.62,20,1.481
+Winger,Georginio Wijnaldum,Newcastle United,28.97,26,1.114
+Winger,Mame Diouf,Stoke City,27.12,23,1.179
+Winger,Jonathan Howson,Norwich City,25.45,23,1.106
+Winger,Scott Sinclair,Aston Villa,23.27,17,1.369
+Winger,Ikechi Anya,Watford,20.71,17,1.218

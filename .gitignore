@@ -1,0 +1,16 @@
+# Repository hygiene
+.venv/
+data/raw/
+data/processed/events.csv.gz
+data/processed/football.sqlite
+data/processed/matches.csv
+data/processed/players.csv
+data/processed/teams.csv
+data/processed/player_match.csv
+data/processed/shots.csv
+data/processed/test_predictions.csv
+data/source/matches.json
+data/source/competitions.json
+__pycache__/
+.pytest_cache/
+*.pyc

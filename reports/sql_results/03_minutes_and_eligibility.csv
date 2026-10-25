@@ -1,0 +1,325 @@
+display_name,team_name,regulation_minutes,appearances
+Andrew Surman,AFC Bournemouth,3420.0,38
+Wes Morgan,Leicester City,3420.0,38
+Kasper Schmeichel,Leicester City,3420.0,38
+Toby Alderweireld,Tottenham Hotspur,3420.0,38
+Heurelho Gomes,Watford,3396.5289166666666,38
+Simon Francis,AFC Bournemouth,3386.8555833333335,38
+Craig Dawson,West Bromwich Albion,3385.0359166666667,38
+Darren Fletcher,West Bromwich Albion,3375.0,38
+Harry Kane,Tottenham Hotspur,3365.631533333333,38
+Hugo Lloris,Tottenham Hotspur,3330.0,37
+Łukasz Fabiański,Swansea City,3330.0,37
+Aaron Cresswell,West Ham United,3314.96195,37
+Troy Deeney,Watford,3292.2785833333332,38
+Charlie Daniels,AFC Bournemouth,3285.0,37
+Eric Dier,Tottenham Hotspur,3265.9491666666668,37
+Nacho Monreal,Arsenal,3248.9380333333334,37
+Héctor Bellerín,Arsenal,3240.0,36
+Ashley Williams,Swansea City,3240.0,36
+Moussa Sissoko,Newcastle United,3219.6518333333333,37
+Mark Noble,West Ham United,3200.501783333333,37
+César Azpilicueta,Chelsea,3199.340166666667,37
+Steve Cook,AFC Bournemouth,3195.0,36
+Yann M'Vila,Sunderland,3188.1492,37
+Romelu Lukaku,Everton,3171.9765333333335,37
+Glenn Whelan,Stoke City,3169.14715,37
+José Fonte,Southampton,3166.8513,37
+Georginio Wijnaldum,Newcastle United,3165.767516666667,38
+Scott Dann,Crystal Palace,3150.0,35
+Chris Smalling,Manchester United,3150.0,35
+Robert Huth,Leicester City,3150.0,35
+Odion Ighalo,Watford,3149.0623333333333,37
+Jamie Vardy,Leicester City,3136.714233333333,36
+Daley Blind,Manchester United,3115.05285,35
+Joe Hart,Manchester City,3109.4002833333334,35
+Erik Pieters,Stoke City,3096.9884,35
+Ross Barkley,Everton,3080.8632,38
+Idrissa Gueye,Aston Villa,3074.0322,35
+David de Gea,Manchester United,3060.0,34
+Petr Čech,Arsenal,3060.0,34
+Simon Mignolet,Liverpool,3060.0,34
+Virgil van Dijk,Southampton,3060.0,34
+Gareth McAuley,West Bromwich Albion,3059.9099666666666,34
+Riyad Mahrez,Leicester City,3047.983833333333,37
+Mesut Özil,Arsenal,3042.1499,35
+Danny Drinkwater,Leicester City,3035.5725666666667,35
+Craig Cathcart,Watford,3033.2694,35
+N'Golo Kanté,Leicester City,3019.943083333333,37
+Pape Souaré,Crystal Palace,3015.0,34
+Cheikhou Kouyaté,West Ham United,3008.5493500000002,34
+Robert Brady,Norwich City,2984.4827,36
+Matt Ritchie,AFC Bournemouth,2976.2325166666665,37
+Patrick van Aanholt,Sunderland,2970.0,33
+Nathaniel Clyne,Liverpool,2970.0,33
+Jonathan Howson,Norwich City,2952.251133333333,36
+Neil Taylor,Swansea City,2946.9512666666665,34
+Kyle Walker,Tottenham Hotspur,2941.5592166666665,33
+Christian Eriksen,Tottenham Hotspur,2938.619,35
+André Ayew,Swansea City,2932.0781166666666,34
+Chancel Mbemba,Newcastle United,2923.8088,33
+Branislav Ivanović,Chelsea,2917.449883333333,33
+Gylfi Sigurðsson,Swansea City,2913.8903666666665,36
+Cesc Fàbregas,Chelsea,2896.3087333333333,37
+Juan Mata,Manchester United,2895.637816666667,38
+Federico Fernández,Swansea City,2880.0,32
+Adrián,West Ham United,2880.0,32
+Damien Delaney,Crystal Palace,2880.0,32
+Ryan Bertrand,Southampton,2880.0,32
+Artur Boruc,AFC Bournemouth,2880.0,32
+Claudio Yacob,West Bromwich Albion,2848.7887,34
+Laurent Koscielny,Arsenal,2846.0353833333334,33
+Gareth Barry,Everton,2836.0970333333335,33
+Étienne Capoue,Watford,2817.6911333333333,33
+Ben Watson,Watford,2816.2849666666666,35
+Marko Arnautović,Stoke City,2815.491666666667,34
+Jack Butland,Stoke City,2790.0,31
+Sébastien Bassong,Norwich City,2789.435066666667,32
+John Stones,Everton,2778.8806,33
+Marc Albrighton,Leicester City,2760.9468833333335,38
+Daryl Janmaat,Newcastle United,2753.6180833333333,32
+Willian,Chelsea,2743.5065833333333,35
+Fernandinho,Manchester City,2730.7173333333335,33
+Ashley Westwood,Aston Villa,2717.9104333333335,32
+Christian Fuchs,Leicester City,2710.2534166666665,32
+Russell Martin,Norwich City,2697.0772166666666,30
+Yohan Cabaye,Crystal Palace,2695.3171,33
+Joel Ward,Crystal Palace,2691.0659666666666,30
+Philipp Wollscheid,Stoke City,2684.2112166666666,31
+Nicolás Otamendi,Manchester City,2671.03815,30
+Anthony Martial,Manchester United,2630.811816666667,31
+Joleon Lescott,Aston Villa,2629.6115,30
+Aaron Ramsey,Arsenal,2622.245266666667,31
+Jason Puncheon,Crystal Palace,2620.6078666666667,31
+Danny Simpson,Leicester City,2610.5282833333335,30
+Wayne Hennessey,Crystal Palace,2610.0,29
+Steven Davis,Southampton,2608.04345,34
+Sadio Mané,Southampton,2603.1127166666665,37
+Jan Vertonghen,Tottenham Hotspur,2594.779666666667,29
+Jonny Evans,West Bromwich Albion,2591.2930333333334,30
+Dimitri Payet,West Ham United,2569.9008833333332,30
+Salomón Rondón,West Bromwich Albion,2564.2434,34
+Jermain Defoe,Sunderland,2551.1828333333333,33
+Alberto Moreno,Liverpool,2548.2953666666667,32
+Jack Cork,Swansea City,2544.5295,35
+Brad Guzan,Aston Villa,2520.0,28
+Victor Wanyama,Southampton,2497.303516666667,30
+Wilfried Zaha,Crystal Palace,2492.2214166666668,34
+Emre Can,Liverpool,2491.9119666666666,30
+Dele Alli,Tottenham Hotspur,2470.4692333333332,33
+Allan Nyom,Watford,2470.466,32
+Bacary Sagna,Manchester City,2448.419766666667,28
+Dan Gosling,AFC Bournemouth,2444.4211,34
+Alexis Sánchez,Arsenal,2441.400866666667,30
+James McCarthy,Everton,2431.2639833333333,29
+John Ruddy,Norwich City,2430.0,27
+Olivier Giroud,Arsenal,2427.917516666667,38
+Leandro Bacuna,Aston Villa,2418.0324333333333,31
+Nemanja Matić,Chelsea,2415.8954166666667,32
+James McClean,West Bromwich Albion,2414.4839,35
+James Milner,Liverpool,2411.798333333333,28
+Wayne Rooney,Manchester United,2407.737616666667,28
+Jack Colback,Newcastle United,2390.6852,29
+Séamus Coleman,Everton,2385.23775,28
+Diego Costa,Chelsea,2376.7143666666666,28
+Erik Lamela,Tottenham Hotspur,2375.816,33
+Sergio Agüero,Manchester City,2364.7330666666667,30
+Geoff Cameron,Stoke City,2359.32325,30
+Jordan Ayew,Aston Villa,2351.6606,30
+Nathan Redmond,Norwich City,2337.73865,35
+Alan Hutton,Aston Villa,2328.7645333333335,28
+Yaya Touré,Manchester City,2327.974166666667,31
+Angelo Ogbonna,West Ham United,2325.8404166666664,27
+Fabricio Coloccini,Newcastle United,2292.4898333333335,26
+Dušan Tadić,Southampton,2284.658266666667,34
+Aleksandar Kolarov,Manchester City,2281.847,29
+Jesús Navas,Manchester City,2281.284866666667,34
+Mousa Dembélé,Tottenham Hotspur,2268.0833333333335,29
+Tim Howard,Everton,2250.0,25
+Lee Cattermole,Sunderland,2213.7437,31
+Morgan Schneiderlin,Manchester United,2204.46855,29
+Eden Hazard,Chelsea,2192.1817666666666,31
+Ramiro Funes Mori,Everton,2190.477533333333,28
+James McArthur,Crystal Palace,2188.2415666666666,28
+Glen Johnson,Stoke City,2185.5572,25
+Graziano Pellè,Southampton,2173.38415,30
+Winston Reid,West Ham United,2135.254,24
+Danny Rose,Tottenham Hotspur,2129.7316833333334,24
+Aleksandar Mitrović,Newcastle United,2113.379,34
+Shane Long,Southampton,2111.3202333333334,28
+Adam Lallana,Liverpool,2109.9004333333332,30
+Vurnon Anita,Newcastle United,2103.862216666667,28
+Ibrahim Afellay,Stoke City,2100.398616666667,31
+Adam Smith,AFC Bournemouth,2098.474383333333,30
+Yannick Bolasie,Crystal Palace,2075.5543,26
+Miguel Britos,Watford,2075.3113166666667,24
+Boaz Myhill,West Bromwich Albion,2070.0,23
+Shinji Okazaki,Leicester City,2063.764383333333,36
+Michail Antonio,West Ham United,2057.5789833333333,26
+Per Mertesacker,Arsenal,2047.84725,24
+Ayoze Pérez,Newcastle United,2047.7279333333333,34
+Micah Richards,Aston Villa,2045.4338833333334,24
+Pedro,Chelsea,2038.5771333333332,29
+Craig Gardner,West Bromwich Albion,2035.9328666666665,34
+Billy Jones,Sunderland,2032.3973833333334,24
+Xherdan Shaqiri,Stoke City,2019.19165,27
+Thibaut Courtois,Chelsea,2019.1811166666666,23
+José Jurado,Watford,2017.5192,27
+Jonas Olsson,West Bromwich Albion,2012.8303,27
+Eliaquim Mangala,Manchester City,2009.4601333333333,23
+Younès Kaboul,Sunderland,2008.5009166666666,23
+John O'Shea,Sunderland,2007.3763833333333,27
+Kevin De Bruyne,Manchester City,2003.2263833333334,25
+Philippe Coutinho,Liverpool,1999.5103666666666,26
+Wes Hoolahan,Norwich City,1998.3925666666667,30
+John Terry,Chelsea,1988.10915,24
+Roberto Firmino,Liverpool,1980.9989,31
+Almen Abdi,Watford,1977.3939166666667,32
+Michael Carrick,Manchester United,1973.9236833333332,27
+Cédric Soares,Southampton,1968.0139,24
+James Tomkins,West Ham United,1963.1982833333334,25
+Gary Cahill,Chelsea,1956.3097833333334,23
+Lucas Leiva,Liverpool,1952.1761,26
+Alexander Tettey,Norwich City,1949.5770166666666,23
+Matteo Darmian,Manchester United,1926.8666333333333,28
+Raheem Sterling,Manchester City,1920.0768,31
+Kurt Zouma,Chelsea,1918.0107166666667,23
+Joshua King,AFC Bournemouth,1917.6655,31
+Manuel Lanzini,West Ham United,1914.0477666666666,26
+Fabio Borini,Sunderland,1896.2151166666667,26
+Dejan Lovren,Liverpool,1895.1127666666666,23
+Paul Dummett,Newcastle United,1894.3365666666666,23
+Rob Elliot,Newcastle United,1890.0,21
+Martin Škrtel,Liverpool,1885.8352333333332,22
+Nathan Aké,Watford,1874.0773333333334,24
+Mamadou Sakho,Liverpool,1853.7621,22
+Phil Jagielka,Everton,1851.3086,21
+Ki Sung-Yeung,Swansea City,1849.4044833333332,28
+Ryan Bennett,Norwich City,1837.80575,22
+Jordan Veretout,Aston Villa,1823.89595,25
+Àngel Rangel,Swansea City,1819.8579166666666,23
+DeAndre Yedlin,Sunderland,1810.5248333333334,23
+Chris Brunt,West Bromwich Albion,1801.2775166666665,22
+David Silva,Manchester City,1794.2713333333334,24
+John Obi Mikel,Chelsea,1782.2832833333334,24
+Cameron Jerome,Norwich City,1779.0343,34
+Sebastian Prödl,Watford,1776.4192833333334,21
+Martin Olsson,Norwich City,1773.4484666666667,24
+Oscar,Chelsea,1771.2436,27
+Kyle Naughton,Swansea City,1765.5779166666666,26
+Gabriel Paulista,Arsenal,1762.9502666666667,21
+Stéphane Sessègnon,West Bromwich Albion,1757.9467666666667,25
+Gary O'Neil,Norwich City,1751.48585,27
+Saido Berahino,West Bromwich Albion,1742.6843666666666,30
+Jonathan Walters,Stoke City,1722.7951166666667,26
+Vito Mannone,Sunderland,1710.0,19
+Bojan,Stoke City,1706.1844333333333,27
+Bafétimbi Gomis,Swansea City,1701.1531833333333,33
+Fernando Reges,Manchester City,1696.4712666666667,24
+Ryan Shawcross,Stoke City,1695.8685666666668,20
+Ikechi Anya,Watford,1683.2219499999999,28
+Wayne Routledge,Swansea City,1676.26965,28
+Harry Arter,AFC Bournemouth,1666.7564666666667,21
+Rudy Gestede,Aston Villa,1664.08695,32
+Francis Joseph Coquelin,Arsenal,1643.9557333333332,26
+Jesse Lingard,Manchester United,1632.7330666666667,25
+Fraser Forster,Southampton,1620.0,18
+Tom Cleverley,Everton,1614.6522666666667,22
+Oriol Romeu,Southampton,1609.6072833333333,29
+Aly Cissokho,Aston Villa,1602.8362666666667,18
+Scott Sinclair,Aston Villa,1593.6488833333333,26
+Dieumerci Mbokani Bezua,Norwich City,1590.8571333333334,28
+Jordy Clasie,Southampton,1544.00205,22
+Aaron Lennon,Everton,1540.3686500000001,25
+James Ward-Prowse,Southampton,1535.9125333333334,32
+Mile Jedinak,Crystal Palace,1535.3466333333333,27
+Ander Herrera,Manchester United,1531.8419833333332,26
+Costel Pantilimon,Sunderland,1530.0,17
+Maarten Stekelenburg,Southampton,1530.0,17
+Christian Benteke,Liverpool,1523.2129,29
+Leon Britton,Swansea City,1522.9400833333334,24
+Diafra Sakho,West Ham United,1522.2006333333334,21
+Memphis Depay,Manchester United,1481.2577999999999,29
+Leighton Baines,Everton,1477.3262833333333,18
+Arouna Koné,Everton,1458.7633333333333,25
+Ciaran Clark,Aston Villa,1440.0,16
+James Collins,West Ham United,1438.4742,18
+Carles Gil,Aston Villa,1438.4269833333333,23
+Andy Carroll,West Ham United,1438.1109333333334,27
+Junior Stanislas,AFC Bournemouth,1436.6381166666667,21
+Asmir Begović,Chelsea,1397.6878333333334,17
+Jeffrey Schlupp,Leicester City,1383.5214166666667,24
+Gerard Deulofeu,Everton,1380.96815,26
+Theo Walcott,Arsenal,1371.7418499999999,27
+Carlos Sánchez,Aston Villa,1367.8370666666667,20
+Jefferson Montero,Swansea City,1354.95225,23
+Ben Foster,West Bromwich Albion,1350.0,15
+James Morrison,West Bromwich Albion,1341.58515,18
+Marc Pugh,AFC Bournemouth,1337.11345,26
+Connor Wickham,Crystal Palace,1320.9839333333334,21
+Lamine Koné,Sunderland,1314.5658666666666,15
+Jeremain Lens,Sunderland,1294.1623333333334,20
+Jordan Henderson,Liverpool,1291.3745666666666,17
+Santi Cazorla,Arsenal,1291.0942666666667,15
+Ben Davies,Tottenham Hotspur,1290.2683166666666,17
+Graham Dorrans,Norwich City,1287.3279,21
+Valon Behrami,Watford,1278.8053333333332,20
+Mame Diouf,Stoke City,1274.4998,26
+Giannelli Imbula,Stoke City,1260.0,14
+Marcos Rojo,Manchester United,1251.5498,16
+Sebastián Coates,Sunderland,1230.6471166666668,16
+Carl Jenkinson,West Ham United,1227.52205,20
+Wilfried Bony,Manchester City,1226.0508166666666,26
+Cheik Tioté,Newcastle United,1222.6967166666666,20
+Brendan Galloway,Everton,1222.5260166666667,15
+Jonjo Shelvey,Swansea City,1217.18395,15
+Bastian Schweinsteiger,Manchester United,1200.0373666666667,18
+Vincent Kompany,Manchester City,1179.66495,14
+Jordon Ibe,Liverpool,1173.9008166666667,26
+Joel Robles,Everton,1170.0,13
+Jack Rodwell,Sunderland,1163.1685333333332,22
+Jamaal Lascelles,Newcastle United,1149.92015,17
+Adam Johnson,Sunderland,1144.7338833333333,19
+Marc Muniesa,Stoke City,1112.12725,15
+Son Heung-Min,Tottenham Hotspur,1104.73055,28
+Joselu,Stoke City,1094.1336666666666,22
+Mathieu Flamini,Arsenal,1090.3649833333334,16
+Gaël Clichy,Manchester City,1087.4258,14
+Andros Townsend,Newcastle United,1087.0559333333333,13
+Cuco Martina,Southampton,1083.6352,15
+Pedro Obiang,West Ham United,1083.4824,23
+Jan Kirchhoff,Sunderland,1080.9632833333333,15
+Tetchi Jores Charlemagne Ulrich Okore,Aston Villa,1080.0,12
+Wahbi Khazri,Sunderland,1073.4355333333333,14
+Bakary Sako,Crystal Palace,1069.5338,19
+Papiss Demba Cissé,Newcastle United,1068.6616166666668,21
+Marouane Fellaini,Manchester United,1068.3077333333333,18
+Matt Targett,Southampton,1068.1683666666668,14
+Ashley Young,Manchester United,1064.4398,18
+Pablo Zabaleta,Manchester City,1061.5802333333334,13
+Andy King,Leicester City,1056.6815333333334,25
+Jonjo Shelvey,Newcastle United,1048.4128166666667,15
+Martin Kelly,Crystal Palace,1043.9340333333334,13
+Charlie Adam,Stoke City,1042.4646,21
+Gabriel Agbonlahor,Aston Villa,1032.3270333333332,14
+Matt Jarvis,Norwich City,1020.4948166666667,19
+Baba Rahman,Chelsea,1019.1745333333333,15
+Maya Yoshida,Southampton,1016.8222499999999,19
+Martín Demichelis,Manchester City,1016.7165166666666,18
+Tommy Elphick,AFC Bournemouth,1012.4036333333333,12
+Steven Fletcher,Sunderland,1011.14175,16
+Enner Valencia,West Ham United,1010.9634833333333,18
+Kevin Mirallas,Everton,1006.7035,22
+Bryan Oviedo,Everton,997.1125666666667,14
+Declan Rudd,Norwich City,990.0,11
+Victor Moses,West Ham United,979.4432333333333,21
+Daniel Sturridge,Liverpool,978.78715,14
+Joe Ledley,Crystal Palace,977.7851833333334,19
+Leonardo Ulloa,Leicester City,971.4496666666666,28
+James Grant Chester,West Bromwich Albion,963.5787833333334,13
+Jose Cholevas,Watford,945.0,11
+Nacer Chadli,Tottenham Hotspur,940.6007666666667,28
+Benik Afobe,AFC Bournemouth,936.2469833333333,15
+Alex Oxlade-Chamberlain,Arsenal,925.6033666666667,22
+Duncan Watmore,Sunderland,912.7478833333333,23
+Mark Bunn,Aston Villa,900.0,10

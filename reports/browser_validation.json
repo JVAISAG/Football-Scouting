@@ -1,0 +1,23 @@
+{
+  "checks_passed": 14,
+  "checks": [
+    "Overview and real-data metrics render offline",
+    "Role, name, empty-result and minimum-minute filters",
+    "Club filter",
+    "Numeric sorting",
+    "Player profile and grouped shot map update",
+    "CSV shortlist export",
+    "Interactive shot location changes model prediction",
+    "Browser/Python model parity: 200 shots, maximum error 1.1102230246251565e-16",
+    "Browser/Python exact optimization parity for seven budgets",
+    "Infeasible budget has an explicit empty state",
+    "Budget control and optimization action",
+    "Methods and limitations render",
+    "All five sections fit a 390-pixel mobile viewport",
+    "No browser JavaScript errors"
+  ],
+  "console_errors": [],
+  "model_max_absolute_error": 1.1102230246251565e-16,
+  "browser": "151.0.7922.34",
+  "offline": true
+}

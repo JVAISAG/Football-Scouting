@@ -1,0 +1,11 @@
+transformed_feature,coefficient_log_odds
+numeric__distance,-0.9552609416840028
+numeric__angle,0.29611217167764287
+numeric__under_pressure,-0.12585642821426685
+numeric__first_time,-0.10423780527434784
+categorical__body_part_Head,-1.1642926981008623
+categorical__body_part_Left Foot,-0.16849084859230132
+categorical__body_part_Other,0.4596421356419251
+categorical__body_part_Right Foot,-0.002566569028652819
+categorical__shot_type_Free Kick,-0.03992904609559644
+categorical__shot_type_Open Play,-0.8357789339842638

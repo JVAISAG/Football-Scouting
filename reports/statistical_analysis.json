@@ -1,0 +1,14 @@
+{
+  "question": "Are recorded close-range shots converted more often than long-range shots?",
+  "near_definition": "Distance below 12 StatsBomb pitch units",
+  "far_definition": "Distance at least 20 StatsBomb pitch units",
+  "near_shots": 2342,
+  "near_goal_rate": 0.19214346712211786,
+  "far_shots": 4508,
+  "far_goal_rate": 0.033052351375332745,
+  "difference_95ci": [
+    0.14351399215686217,
+    0.17447959445752598
+  ],
+  "method": "500 bootstrap replicates clustered by match, seed 42. Descriptive association; shot types and other factors are not controlled."
+}

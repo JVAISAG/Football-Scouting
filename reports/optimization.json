@@ -1,0 +1,332 @@
+{
+  "roles": [
+    "Striker",
+    "Winger",
+    "Creator"
+  ],
+  "max_per_club": 2,
+  "minimum_minutes": 900,
+  "minimum_role_share": 0.25,
+  "prior_minutes": 450,
+  "weights": {
+    "Striker": {
+      "npxg": 0.45,
+      "box_shots": 0.2,
+      "npxa": 0.15,
+      "progressive_carries": 0.1,
+      "pressures": 0.1
+    },
+    "Winger": {
+      "npxg": 0.25,
+      "npxa": 0.3,
+      "progressive_carries": 0.2,
+      "progressive_passes": 0.15,
+      "pressures": 0.1
+    },
+    "Creator": {
+      "npxa": 0.35,
+      "key_passes": 0.25,
+      "progressive_passes": 0.25,
+      "npxg": 0.1,
+      "pressures": 0.05
+    }
+  },
+  "cost_formula": "round(8 + 0.20 * maximum role score + 0.002 * regulation minutes + player_id modulo 7)",
+  "cost_warning": "Synthetic credits based partly on retrospective performance. This is a constrained selection demonstration, not evidence of transfer-market value.",
+  "scenarios": [
+    {
+      "feasible": true,
+      "budget": 60,
+      "total_cost": 60,
+      "total_score": 140.2381993007,
+      "selection": [
+        {
+          "player_id": 30289,
+          "display_name": "Papiss Demba Ciss\u00e9",
+          "team": "Newcastle United",
+          "primary_team_id": 37,
+          "role": "Striker",
+          "score": 42.9545454545,
+          "minutes": 1068.6616166667,
+          "cost_credits": 19,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 22281,
+          "display_name": "Duncan Watmore",
+          "team": "Sunderland",
+          "primary_team_id": 41,
+          "role": "Winger",
+          "score": 41.3461538462,
+          "minutes": 912.7478833333,
+          "cost_credits": 18,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3304,
+          "display_name": "Harry Arter",
+          "team": "AFC Bournemouth",
+          "primary_team_id": 28,
+          "role": "Creator",
+          "score": 55.9375,
+          "minutes": 1666.7564666667,
+          "cost_credits": 23,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        }
+      ],
+      "examined_feasible": 3217
+    },
+    {
+      "feasible": true,
+      "budget": 75,
+      "total_cost": 75,
+      "total_score": 207.2476689977,
+      "selection": [
+        {
+          "player_id": 3598,
+          "display_name": "Wilfried Bony",
+          "team": "Manchester City",
+          "primary_team_id": 36,
+          "role": "Striker",
+          "score": 70.5681818182,
+          "minutes": 1226.0508166667,
+          "cost_credits": 25,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3297,
+          "display_name": "Andros Townsend",
+          "team": "Newcastle United",
+          "primary_team_id": 37,
+          "role": "Winger",
+          "score": 67.1794871795,
+          "minutes": 1153.2484,
+          "cost_credits": 24,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3535,
+          "display_name": "Roberto Firmino",
+          "team": "Liverpool",
+          "primary_team_id": 24,
+          "role": "Creator",
+          "score": 69.5,
+          "minutes": 1980.9989,
+          "cost_credits": 26,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        }
+      ],
+      "examined_feasible": 109785
+    },
+    {
+      "feasible": true,
+      "budget": 90,
+      "total_cost": 90,
+      "total_score": 242.85052447549998,
+      "selection": [
+        {
+          "player_id": 10955,
+          "display_name": "Harry Kane",
+          "team": "Tottenham Hotspur",
+          "primary_team_id": 38,
+          "role": "Striker",
+          "score": 72.8409090909,
+          "minutes": 3365.6315333333,
+          "cost_credits": 29,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "primary_team_id": 24,
+          "role": "Winger",
+          "score": 82.8846153846,
+          "minutes": 1999.5103666667,
+          "cost_credits": 30,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3473,
+          "display_name": "James Milner",
+          "team": "Liverpool",
+          "primary_team_id": 24,
+          "role": "Creator",
+          "score": 87.125,
+          "minutes": 2411.7983333333,
+          "cost_credits": 31,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        }
+      ],
+      "examined_feasible": 257575
+    },
+    {
+      "feasible": true,
+      "budget": 105,
+      "total_cost": 104,
+      "total_score": 257.708479021,
+      "selection": [
+        {
+          "player_id": 3604,
+          "display_name": "Olivier Giroud",
+          "team": "Arsenal",
+          "primary_team_id": 1,
+          "role": "Striker",
+          "score": 84.8863636364,
+          "minutes": 2427.9175166667,
+          "cost_credits": 36,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "primary_team_id": 24,
+          "role": "Winger",
+          "score": 82.8846153846,
+          "minutes": 1999.5103666667,
+          "cost_credits": 30,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3478,
+          "display_name": "Cesc F\u00e0bregas",
+          "team": "Chelsea",
+          "primary_team_id": 33,
+          "role": "Creator",
+          "score": 89.9375,
+          "minutes": 2896.3087333333,
+          "cost_credits": 38,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        }
+      ],
+      "examined_feasible": 272090
+    },
+    {
+      "feasible": true,
+      "budget": 120,
+      "total_cost": 104,
+      "total_score": 257.708479021,
+      "selection": [
+        {
+          "player_id": 3604,
+          "display_name": "Olivier Giroud",
+          "team": "Arsenal",
+          "primary_team_id": 1,
+          "role": "Striker",
+          "score": 84.8863636364,
+          "minutes": 2427.9175166667,
+          "cost_credits": 36,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "primary_team_id": 24,
+          "role": "Winger",
+          "score": 82.8846153846,
+          "minutes": 1999.5103666667,
+          "cost_credits": 30,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3478,
+          "display_name": "Cesc F\u00e0bregas",
+          "team": "Chelsea",
+          "primary_team_id": 33,
+          "role": "Creator",
+          "score": 89.9375,
+          "minutes": 2896.3087333333,
+          "cost_credits": 38,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        }
+      ],
+      "examined_feasible": 272119
+    },
+    {
+      "feasible": true,
+      "budget": 150,
+      "total_cost": 104,
+      "total_score": 257.708479021,
+      "selection": [
+        {
+          "player_id": 3604,
+          "display_name": "Olivier Giroud",
+          "team": "Arsenal",
+          "primary_team_id": 1,
+          "role": "Striker",
+          "score": 84.8863636364,
+          "minutes": 2427.9175166667,
+          "cost_credits": 36,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3501,
+          "display_name": "Philippe Coutinho",
+          "team": "Liverpool",
+          "primary_team_id": 24,
+          "role": "Winger",
+          "score": 82.8846153846,
+          "minutes": 1999.5103666667,
+          "cost_credits": 30,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        },
+        {
+          "player_id": 3478,
+          "display_name": "Cesc F\u00e0bregas",
+          "team": "Chelsea",
+          "primary_team_id": 33,
+          "role": "Creator",
+          "score": 89.9375,
+          "minutes": 2896.3087333333,
+          "cost_credits": 38,
+          "cost_assumption": "Hypothetical credits, not market valuation"
+        }
+      ],
+      "examined_feasible": 272119
+    }
+  ],
+  "default": {
+    "feasible": true,
+    "budget": 90,
+    "total_cost": 90,
+    "total_score": 242.85052447549998,
+    "selection": [
+      {
+        "player_id": 10955,
+        "display_name": "Harry Kane",
+        "team": "Tottenham Hotspur",
+        "primary_team_id": 38,
+        "role": "Striker",
+        "score": 72.8409090909,
+        "minutes": 3365.6315333333,
+        "cost_credits": 29,
+        "cost_assumption": "Hypothetical credits, not market valuation"
+      },
+      {
+        "player_id": 3501,
+        "display_name": "Philippe Coutinho",
+        "team": "Liverpool",
+        "primary_team_id": 24,
+        "role": "Winger",
+        "score": 82.8846153846,
+        "minutes": 1999.5103666667,
+        "cost_credits": 30,
+        "cost_assumption": "Hypothetical credits, not market valuation"
+      },
+      {
+        "player_id": 3473,
+        "display_name": "James Milner",
+        "team": "Liverpool",
+        "primary_team_id": 24,
+        "role": "Creator",
+        "score": 87.125,
+        "minutes": 2411.7983333333,
+        "cost_credits": 31,
+        "cost_assumption": "Hypothetical credits, not market valuation"
+      }
+    ],
+    "examined_feasible": 257575
+  }
+}

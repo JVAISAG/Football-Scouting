@@ -1,0 +1,4 @@
+split,matches,shots,goals,first_match,last_match,mean_frozen_xg
+train,230,5851,532,2015-08-08,2016-01-24,0.0907
+validation,90,2336,215,2016-02-02,2016-04-09,0.0929
+test,60,1629,166,2016-04-10,2016-05-17,0.0907

@@ -1,0 +1,4 @@
+check_name,exceptions
+duplicate_event_ids,0
+events_without_match,0
+non_penalty_shots_without_xg,0

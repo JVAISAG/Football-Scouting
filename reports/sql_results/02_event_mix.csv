@@ -1,0 +1,34 @@
+type,events,share_pct
+Pass,368619,28.06
+Ball Receipt*,340314,25.9
+Carry,276949,21.08
+Pressure,115402,8.78
+Ball Recovery,40943,3.12
+Duel,32290,2.46
+Clearance,21645,1.65
+Block,14839,1.13
+Dribble,13721,1.04
+Goal Keeper,11777,0.9
+Miscontrol,10786,0.82
+Dispossessed,10520,0.8
+Shot,9908,0.75
+Foul Committed,9512,0.72
+Foul Won,9112,0.69
+Interception,8920,0.68
+Dribbled Past,8771,0.67
+Substitution,2109,0.16
+Half End,1520,0.12
+Half Start,1520,0.12
+Injury Stoppage,1032,0.08
+Starting XI,760,0.06
+Tactical Shift,625,0.05
+50/50,559,0.04
+Shield,503,0.04
+Referee Ball-Drop,272,0.02
+Bad Behaviour,193,0.01
+Error,178,0.01
+Player Off,145,0.01
+Player On,144,0.01
+Offside,109,0.01
+Own Goal Against,38,0.0
+Own Goal For,38,0.0

@@ -1,0 +1,16 @@
+display_name,role,metric,weight,raw_per90,shrunk_per90,role_percentile,contribution
+Christian Benteke,Striker,npxg,0.45,0.537,0.489,1.0,45.0
+Christian Benteke,Striker,box_shots,0.2,3.309,3.037,0.932,18.636
+Christian Benteke,Striker,npxa,0.15,0.128,0.121,0.75,11.25
+Christian Benteke,Striker,progressive_carries,0.1,1.595,1.872,0.273,2.727
+Christian Benteke,Striker,pressures,0.1,9.572,10.832,0.091,0.909
+Olivier Giroud,Striker,npxg,0.45,0.484,0.459,0.955,42.955
+Olivier Giroud,Striker,box_shots,0.2,3.559,3.333,1.0,20.0
+Olivier Giroud,Striker,npxa,0.15,0.165,0.155,0.932,13.977
+Olivier Giroud,Striker,pressures,0.1,15.791,15.683,0.659,6.591
+Olivier Giroud,Striker,progressive_carries,0.1,1.334,1.565,0.136,1.364
+Sergio Agüero,Striker,npxg,0.45,0.493,0.467,0.977,43.977
+Sergio Agüero,Striker,box_shots,0.2,3.387,3.184,0.977,19.545
+Sergio Agüero,Striker,progressive_carries,0.1,5.214,4.83,0.909,9.091
+Sergio Agüero,Striker,npxa,0.15,0.061,0.067,0.227,3.409
+Sergio Agüero,Striker,pressures,0.1,10.58,11.302,0.182,1.818

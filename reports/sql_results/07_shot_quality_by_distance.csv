@@ -1,0 +1,4 @@
+distance_band,shots,goals,conversion,mean_xg
+01 close (<12),2342,450,0.1921,0.1986
+02 medium (12-20),2966,314,0.1059,0.096
+03 long (20+),4508,149,0.0331,0.0363
