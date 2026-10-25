@@ -1,0 +1,130 @@
+name: Analytics checks
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: analytics-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+env:
+  OMP_NUM_THREADS: '2'
+  OPENBLAS_NUM_THREADS: '2'
+  MPLBACKEND: Agg
+jobs:
+  unit-and-artifacts:
+    name: Unit tests and committed analytical outputs
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Test synthetic inputs and the shipped analytical outputs
+        run: python -m pytest tests/unit tests/artifacts -q --junitxml=reports/ci/fast.xml
+      - name: Require tests to actually execute without skips
+        run: python ci/check_test_report.py reports/ci/fast.xml --minimum 31
+      - name: Preserve the test report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: unit-and-artifact-results
+          path: reports/ci/fast.xml
+          retention-days: 14
+  full-data:
+    name: Rebuild all 380 matches and test the warehouse
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: statsbomb-epl-${{ hashFiles('data/source/revision.json', 'data/source/manifest.csv') }}
+      - name: Download the pinned source and rebuild the complete pipeline
+        run: python src/run_pipeline.py --download --rebuild-raw
+      - name: Test every warehouse acceptance condition
+        run: python -m pytest tests/integration -q --junitxml=reports/ci/full-data.xml
+      - run: python ci/check_test_report.py reports/ci/full-data.xml --minimum 12
+      - name: Execute every SQL analysis
+        run: python sql/run_queries.py
+      - name: Preserve aggregate verification evidence only
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: full-data-results
+          path: |
+            reports/ci/full-data.xml
+            reports/data_quality.json
+            reports/model_results.json
+            reports/sql_validation.json
+          retention-days: 14
+  later-season:
+    name: Frozen model on the complete ISL 2021-22 season
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: data/external
+          key: statsbomb-isl-${{ hashFiles('data/source/revision.json', 'reports/external_source_manifest.csv') }}
+      - name: Evaluate the committed frozen model without refitting
+        run: python src/external_validation.py --download
+      - run: python -m pytest tests/external -q --junitxml=reports/ci/external.xml
+      - run: python ci/check_test_report.py reports/ci/external.xml --minimum 5
+      - name: Preserve aggregate external evaluation only
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: later-season-results
+          path: |
+            reports/ci/external.xml
+            reports/external_validation.json
+            reports/EXTERNAL_VALIDATION.md
+          retention-days: 14
+  dashboard:
+    name: Offline dashboard and browser-Python parity
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TOUCHLINE_USE_BUNDLED: '1'
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - run: python -m pip install -r requirements.txt
+      - run: npm install --no-save --package-lock=false playwright@1.62.1
+      - run: npx playwright install --with-deps chromium --only-shell
+      - run: python src/browser_fixtures.py
+      - run: node tests/browser_smoke.cjs
+      - name: Preserve browser evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: dashboard-browser-results
+          path: |
+            reports/browser_validation.json
+            reports/browser_qa/
+          retention-days: 14

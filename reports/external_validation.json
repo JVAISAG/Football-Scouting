@@ -1,0 +1,151 @@
+{
+  "competition": "Indian Super League",
+  "season": "2021/2022",
+  "competition_id": 1238,
+  "season_id": 108,
+  "source_revision": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "coverage": "Complete 115-match season: 110 regular-season games, four semifinal legs and final. Regulation-time shots only.",
+  "matches": 115,
+  "teams": 11,
+  "regular_season_games_per_team": 20,
+  "first_date": "2021-11-19",
+  "last_date": "2022-03-20",
+  "source_events": 344667,
+  "non_penalty_shots": 3046,
+  "goals": 315,
+  "goal_rate": 0.10341431385423507,
+  "excluded_shots": {
+    "penalty": 34,
+    "extra_time_or_shootout": 15,
+    "invalid_location": 0
+  },
+  "model_file": "models/xg_evaluation.joblib",
+  "model_sha256": "e607de4e223458a64206a014feb26dcd087ae49382b9515d1a445e6fce5fe69f",
+  "selected_model": "Context logistic",
+  "training_last_date": "2016-04-09",
+  "refitted_or_recalibrated": false,
+  "baseline_probability": 0.0912422132649322,
+  "baseline_definition": "Frozen goal rate from EPL training plus validation shots; no external labels used to set baseline.",
+  "model": {
+    "log_loss": 0.29853093795079705,
+    "brier": 0.08347982973023194,
+    "roc_auc": 0.7291456702295223,
+    "average_precision": 0.306977072380202,
+    "mean_probability": 0.0896045516666823
+  },
+  "baseline": {
+    "log_loss": 0.3333807842901874,
+    "brier": 0.09286795357704893,
+    "roc_auc": 0.5,
+    "average_precision": 0.10341431385423507,
+    "mean_probability": 0.09124221326493219
+  },
+  "log_loss_improvement_pct": 10.453465820950173,
+  "match_bootstrap_95ci_log_loss_improvement": [
+    0.022629474198518792,
+    0.04610691205020581
+  ],
+  "bootstrap_replicates": 1000,
+  "calibration": [
+    {
+      "mean_prediction": 0.0120614239,
+      "goal_rate": 0.0236220472,
+      "shots": 381
+    },
+    {
+      "mean_prediction": 0.0251368232,
+      "goal_rate": 0.0472440945,
+      "shots": 381
+    },
+    {
+      "mean_prediction": 0.0372789652,
+      "goal_rate": 0.0473684211,
+      "shots": 380
+    },
+    {
+      "mean_prediction": 0.0518257538,
+      "goal_rate": 0.0551181102,
+      "shots": 381
+    },
+    {
+      "mean_prediction": 0.069898834,
+      "goal_rate": 0.0971128609,
+      "shots": 381
+    },
+    {
+      "mean_prediction": 0.0937924844,
+      "goal_rate": 0.1289473684,
+      "shots": 380
+    },
+    {
+      "mean_prediction": 0.1326126806,
+      "goal_rate": 0.1207349081,
+      "shots": 381
+    },
+    {
+      "mean_prediction": 0.2941031027,
+      "goal_rate": 0.3070866142,
+      "shots": 381
+    }
+  ],
+  "stages": [
+    {
+      "stage": "Championship - Final",
+      "matches": 1,
+      "shots": 23,
+      "model": {
+        "log_loss": 0.3775474442904443,
+        "brier": 0.09372212677222269,
+        "roc_auc": 0.33333333333333337,
+        "average_precision": 0.09401709401709402,
+        "mean_probability": 0.08630635090729408
+      },
+      "baseline": {
+        "log_loss": 0.29555154613142537,
+        "brier": 0.07941345221801689,
+        "roc_auc": 0.5,
+        "average_precision": 0.08695652173913043,
+        "mean_probability": 0.0912422132649322
+      }
+    },
+    {
+      "stage": "Play-offs - Semi-Finals",
+      "matches": 4,
+      "shots": 98,
+      "model": {
+        "log_loss": 0.23816170463474576,
+        "brier": 0.06250564994565387,
+        "roc_auc": 0.7291666666666667,
+        "average_precision": 0.46623930079812437,
+        "mean_probability": 0.10552501437648157
+      },
+      "baseline": {
+        "log_loss": 0.2833143095243571,
+        "brier": 0.07506110666271894,
+        "roc_auc": 0.5,
+        "average_precision": 0.08163265306122448,
+        "mean_probability": 0.0912422132649322
+      }
+    },
+    {
+      "stage": "Regular Season",
+      "matches": 110,
+      "shots": 2925,
+      "model": {
+        "log_loss": 0.2999322388804248,
+        "brier": 0.08410201666593206,
+        "roc_auc": 0.7321323989488175,
+        "average_precision": 0.3070959479726199,
+        "mean_probability": 0.08909708269981241
+      },
+      "baseline": {
+        "log_loss": 0.33535568583025677,
+        "brier": 0.09357035512537785,
+        "roc_auc": 0.5,
+        "average_precision": 0.10427350427350428,
+        "mean_probability": 0.09124221326493222
+      }
+    }
+  ],
+  "limitations": "One later season in a different league. This tests temporal plus competition transfer; it does not establish second-season Premier League performance, calibration in every league, or future player-ranking validity."
+}

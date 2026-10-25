@@ -72,3 +72,7 @@ Evaluate on another complete season before discussing generalization. Add opposi
 ## Role-weight sensitivity output
 
 `role_weight_sensitivity.csv` compares the baseline with creation-priority (double the npxA weight) and progression-priority (double the included progressive-action weights). Weights are renormalized; eligible players and component percentiles stay fixed. Top-five overlap indicates how much the shortlist changes under these alternative briefs.
+
+## Independent later-season evidence
+
+The frozen EPL evaluation model was evaluated on all 115 ISL 2021/22 matches without retraining or recalibration. This is an external season and competition transfer experiment. The baseline remains the EPL development-period goal rate. See `EXTERNAL_VALIDATION.md` for measured metrics, calibration, match-bootstrap uncertainty and scope limits. This does not validate the player-ranking model or prove same-league season-to-season stability.

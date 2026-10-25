@@ -1,6 +1,6 @@
 """Export a portable browser model, reports, charts and offline dashboard."""
 from __future__ import annotations
-import base64,json,sqlite3
+import base64,hashlib,json,sqlite3
 from pathlib import Path
 import joblib,numpy as np,pandas as pd
 import matplotlib
@@ -56,6 +56,10 @@ def main():
     logo_path=ROOT/'dashboard/assets/statsbomb.png'
     logo='data:image/png;base64,'+base64.b64encode(logo_path.read_bytes()).decode() if logo_path.exists() else ''
     data={'quality':qa,'model':results,'optimization':opt,'players':records(players[player_cols].round(4)),'scouting':records(scouting[rank_cols]),'shots':records(points.round(4)),'standings':records(team),'calibration':records(pd.read_csv(DATA/'calibration.csv')),'statistical_analysis':effect,'source_logo':logo}
+    external_path=ROOT/'reports/external_validation.json'
+    external_result=json.loads(external_path.read_text()) if external_path.exists() else None
+    current_model_hash=hashlib.sha256((ROOT/'models/xg_evaluation.joblib').read_bytes()).hexdigest()
+    data['external_validation']=external_result if external_result and external_result['model_sha256']==current_model_hash else None
     dump(data,ROOT/'dashboard/dashboard_data.json')
     template=(ROOT/'dashboard/template.html').read_text(encoding='utf-8-sig')
     dashboard=template.replace('__DASHBOARD_DATA__',json.dumps(data,ensure_ascii=False,allow_nan=False).replace('</','<\\/')).replace('__BROWSER_MODEL__',json.dumps(model,ensure_ascii=False,allow_nan=False).replace('</','<\\/'))
@@ -74,6 +78,9 @@ def main():
         for r in selected['selection']: rows.append(f"| {r['role']} | {r['display_name']} | {r['team']} | {r['score']:.1f} | {r['cost_credits']} |")
         rows+=['',f"Total: {selected['total_cost']} / 90 credits; {selected['total_score']:.1f} score points. Exhaustive search considered {selected['examined_feasible']:,} feasible combinations. This is an attacking recruitment unit, not a complete starting XI."]
     rows+=['','## Statistical question','',f"Close-range non-penalty shots converted at {100*effect['near_goal_rate']:.1f}% ({effect['near_shots']:,} shots), versus {100*effect['far_goal_rate']:.1f}% from long range ({effect['far_shots']:,} shots). The match-clustered 95% interval for the conversion-rate difference is {100*effect['difference_95ci'][0]:.1f} to {100*effect['difference_95ci'][1]:.1f} percentage points. This is an association, not evidence that changing shot location alone causes this difference.",'','## Business interpretation','', 'Use the shortlist to prioritize video review for role fit. Validate repeatability on another season and investigate team style, opposition, injuries and scouting reports before making a recruitment decision. Evaluate the ranking under different weights and budgets. The tool does not estimate real fees, wages, availability, medical risk or future player value.','', 'Minutes exclude stoppage time, while event counts include it. Passes advancing at least 15 pitch units and finishing in the attacking half count as progressive passes; carries use 10 units. These are project definitions. npxA sums model xG from non-penalty shots linked to a player\'s key passes.','', 'Data: StatsBomb Open Data, https://github.com/statsbomb/open-data. Credit StatsBomb and retain the official logo and source agreement when sharing analysis. Source-level data and the local database are excluded from the shareable code-and-analysis ZIP; the downloader reconstructs the pinned snapshot.']
+    if data['external_validation']:
+        external=data['external_validation']
+        rows+=['','## Independent later-season test','',f"The frozen EPL model was tested without refitting on {external['matches']} ISL 2021/22 matches and {external['non_penalty_shots']:,} non-penalty shots. External log loss: {external['model']['log_loss']:.4f}, versus {external['baseline']['log_loss']:.4f} for the frozen EPL baseline ({external['log_loss_improvement_pct']:.1f}% lower). This is transfer across season and league, not a second-season EPL test. See [the complete protocol and limits](EXTERNAL_VALIDATION.md)."]
     (ROOT/'reports/FINDINGS.md').write_text('\n'.join(rows)+'\n',encoding='utf-8')
     fig,ax=plt.subplots(figsize=(9,5)); top=scouting.loc[scouting.role.eq('Striker')].head(10).iloc[::-1];ax.barh(top.display_name,top.score,color='#0f766e');ax.set(xlim=(0,100),xlabel='Role score / 100',title='Striker shortlist | Premier League 2015/16');fig.tight_layout();fig.savefig(ROOT/'reports/figures/striker_shortlist.png',dpi=180);plt.close(fig)
     print(f'Published dashboard and findings; test log loss improvement {improvement:.1f}%.',flush=True)

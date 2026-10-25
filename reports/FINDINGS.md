@@ -47,3 +47,7 @@ Use the shortlist to prioritize video review for role fit. Validate repeatabilit
 Minutes exclude stoppage time, while event counts include it. Passes advancing at least 15 pitch units and finishing in the attacking half count as progressive passes; carries use 10 units. These are project definitions. npxA sums model xG from non-penalty shots linked to a player's key passes.
 
 Data: StatsBomb Open Data, https://github.com/statsbomb/open-data. Credit StatsBomb and retain the official logo and source agreement when sharing analysis. Source-level data and the local database are excluded from the shareable code-and-analysis ZIP; the downloader reconstructs the pinned snapshot.
+
+## Independent later-season test
+
+The frozen EPL model was tested without refitting on 115 ISL 2021/22 matches and 3,046 non-penalty shots. External log loss: 0.2985, versus 0.3334 for the frozen EPL baseline (10.5% lower). This is transfer across season and league, not a second-season EPL test. See [the complete protocol and limits](EXTERNAL_VALIDATION.md).

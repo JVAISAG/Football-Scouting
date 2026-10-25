@@ -1,10 +1,33 @@
 # Touchline: Football Scouting, xG and Recruitment Optimization
 
+[![Analytics checks](https://github.com/JVAISAG/Football-Scouting/actions/workflows/analytics.yml/badge.svg)](https://github.com/JVAISAG/Football-Scouting/actions/workflows/analytics.yml)
+[![Dashboard deployment](https://github.com/JVAISAG/Football-Scouting/actions/workflows/pages.yml/badge.svg)](https://github.com/JVAISAG/Football-Scouting/actions/workflows/pages.yml)
+
+**[Open the live dashboard](https://jvaisag.github.io/Football-Scouting/)** · [Findings](reports/FINDINGS.md) · [Independent-season results](reports/EXTERNAL_VALIDATION.md) · [Testing guide](docs/TESTING.md)
+
+An end-to-end football analytics case study: **1.31 million real events**, an original xG model, role-based scouting and exact recruitment optimization.
+
+![Touchline dashboard: season overview, player shortlists and model results](docs/images/dashboard-overview.png)
+
+<p>
+  <a href="docs/images/dashboard-scouting.png"><img src="docs/images/dashboard-scouting.png" alt="Player scouting and role filters" width="49%"></a>
+  <a href="docs/images/dashboard-xg.png"><img src="docs/images/dashboard-xg.png" alt="Interactive expected-goals model" width="49%"></a>
+</p>
+
+| Evaluation | Matches | Non-penalty shots | Model log loss | Frozen baseline log loss |
+|---|---:|---:|---:|---:|
+| EPL 2015/16 chronological holdout | 60 | 1,629 | 0.2878 | 0.3299 |
+| **Independent ISL 2021/22 season** | **115** | **3,046** | **0.2985** | **0.3334** |
+
+The frozen EPL model achieved **10.5% lower log loss** than its frozen baseline on the independent season, without retraining or recalibration. This is evidence of transfer on another season **and league**; it does not establish second-season Premier League performance or future player-ranking accuracy. [Protocol, calibration and limitations →](reports/EXTERNAL_VALIDATION.md)
+
+---
+
 A reproducible data analytics portfolio project using real StatsBomb events from the complete **2015/16 Premier League season (380 matches)**. It combines Python, SQL, probability modeling, statistical analysis and a constrained recruitment simulation.
 
 **Measured scope:** 1,313,773 source events, 9,816 non-penalty shots, 170 eligible attacking players. The selected model achieved 12.8% lower held-out test log loss than the constant baseline.
 
-**Start here:** open `dashboard.html` in Edge, Chrome or Firefox. It is a self-contained offline file. No installation, server or API key is needed to explore it.
+**Start here:** [open the live demo](https://jvaisag.github.io/Football-Scouting/) or open `dashboard.html` in Edge, Chrome or Firefox. It is a self-contained offline file. No installation, server or API key is needed to explore it.
 
 Then read `reports/FINDINGS.md`, `reports/METHODOLOGY.md` and `reports/INTERVIEW_GUIDE.md`.
 
@@ -42,8 +65,9 @@ Use **Python 3.12** for the recorded dependency lock. In a terminal opened in th
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe src/run_pipeline.py --download --rebuild-raw
+.\.venv\Scripts\python.exe src/external_validation.py --download
 .\.venv\Scripts\python.exe sql/run_queries.py
-.\.venv\Scripts\python.exe -m pytest tests -q
+.\.venv\Scripts\python.exe -m pytest tests/unit tests/artifacts tests/integration tests/external -q
 ```
 
 The first run needs internet access and sufficient disk space for downloaded event files and the database. Downloads are cached as gzip files in `data/raw/`; rerunning resumes verified files. SHA-256 source hashes are recorded in `data/source/manifest.csv`. The pinned commit is in `data/source/revision.json`. Do not change it if reproducing these results.
@@ -92,7 +116,32 @@ Filters change the displayed pool; they do not recalculate global role percentil
 
 ## Data credit
 
-Data and official logo: **StatsBomb Open Data** — https://github.com/statsbomb/open-data (now redirects to the provider's Hudl repository). This project is independent research and is not endorsed by StatsBomb, Hudl, the Premier League or any club. Keep the source agreement in `data/source/LICENSE.pdf` and the attribution/logo when sharing analysis. The code does not send messages, publish a website or upload your work anywhere.
+Data and official logo: **StatsBomb Open Data** — https://github.com/statsbomb/open-data (now redirects to the provider's Hudl repository). This project is independent research and is not endorsed by StatsBomb, Hudl, the Premier League or any club. Keep the source agreement in `data/source/LICENSE.pdf` and the attribution/logo when sharing analysis. GitHub Pages publishes the self-contained dashboard through the documented deployment workflow.
+
+## Automated checks and explicit test scope
+
+GitHub Actions runs unit/artifact checks, a full 380-match rebuild, independent-season evaluation, and offline browser checks. **Missing warehouse or external data fails the corresponding suite; it never silently skips.**
+
+```bash
+# Fast checks: synthetic inputs plus committed analytical outputs
+python -m pytest tests/unit tests/artifacts -q
+
+# Full data: first rebuild the warehouse
+python src/run_pipeline.py --download --rebuild-raw
+python -m pytest tests/integration -q
+
+# Independent season: use the frozen model without refitting
+python src/external_validation.py --download
+python -m pytest tests/external -q
+```
+
+A plain `python -m pytest` intentionally selects only the unit and committed-artifact suites. It is not a claim that the full warehouse was rebuilt. [Detailed suite contracts and CI behavior →](docs/TESTING.md)
+
+## Live demo deployment
+
+GitHub Pages publishes only the self-contained dashboard, built by `python src/build_site.py`. The Pages workflow never uploads the repository, raw events or warehouse as a website. The demo URL is `https://jvaisag.github.io/Football-Scouting/`.
+
+The Pages source must be set to **GitHub Actions** in repository settings. Successful deployments appear in the `github-pages` environment and [deployment workflow](https://github.com/JVAISAG/Football-Scouting/actions/workflows/pages.yml).
 
 ## Additional validation
 

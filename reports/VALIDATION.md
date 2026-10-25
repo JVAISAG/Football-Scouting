@@ -1,25 +1,31 @@
-# Validation record
+# Verification record
 
-Completed on 25 October 2026 (Asia/Kolkata).
+Local verification completed on 25 October 2026 (Asia/Kolkata).
 
-- **23 Python tests passed**, zero failures/errors. See `test_results.xml` and `tests/test_project.py`.
-- **14 SQL analyses executed successfully**, with saved result CSVs in `sql_results/`.
-- **14 automated browser check groups passed**, using Chromium 151.0.7922.34 with networking disabled.
-- All 760 source files were rechecked against their recorded SHA-256 hashes; the source snapshot contains 380 matches and 1,313,773 events.
-- Goal counts reconcile to official match scores, including own goals. All 20 clubs have 38 matches; computed standings place Leicester City first on 81 points.
-- Temporal test isolation, probability ranges, saved-model reproduction, player xG/xA totals, role-score components and recruitment constraints passed.
-- Browser and Python xG matched on 200 synthetic shots, with maximum absolute difference **1.11e-16**.
-- Browser and Python exact recruitment selections matched for budgets of 30, 60, 75, 90, 105, 120 and 150 credits.
-- Browser checks covered role/club/name/minute filters, empty results, numeric sorting, player profiles, grouped shot maps, CSV export, the shot lab, budget controls, infeasibility, and all five sections at a 390-pixel mobile viewport.
-- Desktop overview, scouting, xG and recruitment screenshots, plus mobile overview and recruitment screenshots, were generated. Overview, scouting, xG and mobile layouts were visually inspected. Screenshots are in `browser_qa/`.
-- **No browser JavaScript errors** were recorded.
+| Suite | Executed tests | Result |
+|---|---:|---|
+| Unit + committed analytical outputs | 31 | Passed, zero skips |
+| Rebuilt full EPL warehouse | 12 | Passed, zero skips |
+| Independent later-season data | 5 | Passed, zero skips |
+| Browser check groups | 14 | Passed |
+| SQL analyses | 14 | Executed successfully |
 
-## Data-quality observations
+## What was actually checked
 
-One shot lacked a valid location and was excluded from the geometry-based shot table and model. Its original event remains in the local event warehouse. There are 179 player-match audit rows documenting differences or invalid intervals in the supplied lineup data; playing time is reconstructed from ordered events. These are recorded observations, not silently corrected source files.
+- Rebuilt the complete 380-match EPL pipeline from the pinned source cache, reproducing the original model results exactly.
+- Before rebuilding, explicitly ran the full-data suite without a warehouse and verified that it **failed with 12 setup errors and a rebuild instruction**, rather than skipping.
+- The CI report gate rejects skipped and empty reports; synthetic regression tests cover both cases and a passing report.
+- Fresh-checkout artifact tests validate player-role score contributions, split totals, standings, calibration counts, optimizer constraints, and browser/Python model parity without relying on a database.
+- Evaluated the frozen model on all 115 ISL 2021/22 matches (3,046 non-penalty shots), without refitting or recalibration. See [the independent evaluation](EXTERNAL_VALIDATION.md).
+- Browser and Python predictions agree to 1.11e-16 maximum absolute error on 200 synthetic shots; exact recruitment selections agree on seven budgets.
+- Browser checks cover filters, sorting, empty states, CSV export, shot controls, player profiles, budget constraints and all five sections at a 390-pixel viewport. No JavaScript errors were recorded.
+- Reviewed the actual README preview screenshots and external calibration chart.
+- The static-site build includes only `index.html` and `.nojekyll`.
 
-## Boundaries
+## GitHub verification
 
-This verification covers the included historical dataset and the documented model/optimization objective. It does not validate future player performance, live updates, real transfer costs, commercial deployment or compatibility with every browser. The separate retrospective scouting refit is in-sample. The project contains no native Power BI PBIX file or Excel workbook.
+`.github/workflows/analytics.yml` defines separate jobs for unit/artifact checks, a complete warehouse rebuild, external-season evaluation and browser checks. `.github/workflows/pages.yml` handles dashboard deployment. These are automated checks, not substitutes for the local recorded results. Their current status is available in [GitHub Actions](https://github.com/JVAISAG/Football-Scouting/actions).
 
-The installed desktop Edge browser could not start in the automation environment. A dedicated Chromium headless runtime successfully completed the browser tests and produced the reviewed screenshots. There is no remaining unverified browser-appearance caveat for the reviewed views.
+## Scope limits
+
+The independent season changes both time and competition; it is not a second Premier League season. Scouting ranks remain descriptive and in-sample. The model underpredicts the mean external goal rate, which is visible in the calibration results. Synthetic recruitment costs are not real transfer prices.

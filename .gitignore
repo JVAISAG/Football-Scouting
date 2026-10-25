@@ -14,3 +14,15 @@ data/source/competitions.json
 __pycache__/
 .pytest_cache/
 *.pyc
+
+data/external/
+_site/
+reports/ci/
+.env
+.env.*
+!.env.example
+
+node_modules/
+data/processed/*.sqlite*
+data/processed/*.db*
+*.log

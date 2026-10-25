@@ -12,5 +12,5 @@ def main():
     if a.rebuild_raw or not (ROOT/'data/processed/football.sqlite').exists(): subprocess.run([sys.executable,str(ROOT/'src/etl.py'),'--cache-dir',str(a.cache_dir)],check=True)
     for script in ['model_xg.py','scouting.py','publish.py']:
         subprocess.run([sys.executable,str(ROOT/'src'/script)],check=True)
-    print('Done. Open dashboard.html. Run python -m pytest tests for validation.')
+    print('Done. Open dashboard.html. Run python -m pytest tests/integration for full-data validation; plain pytest checks unit inputs and committed artifacts.')
 if __name__=='__main__': main()
